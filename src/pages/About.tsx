@@ -90,7 +90,7 @@ const About = () => {
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&h=500&fit=crop"
+                src={teamInspection}
                 alt="Equipe de engenharia em campo realizando inspeção de segurança contra incêndio"
                 className="w-full h-80 object-cover"
                 loading="lazy"
