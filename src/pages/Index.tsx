@@ -160,6 +160,36 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Nosso Processo */}
+      <section className="py-20 md:py-28 bg-secondary">
+        <div className="container">
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+              Nosso Processo
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Do diagnóstico à regularização, acompanhamos cada etapa com agilidade
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { step: "1", title: "Diagnóstico", desc: "Análise completa da edificação e identificação das necessidades de segurança." },
+              { step: "2", title: "Projeto", desc: "Elaboração do projeto preventivo com todos os sistemas dimensionados." },
+              { step: "3", title: "Aprovação", desc: "Protocolo e acompanhamento junto ao Corpo de Bombeiros até a aprovação." },
+              { step: "4", title: "Regularização", desc: "Emissão do AVCB e documentação completa para o funcionamento legal." },
+            ].map((item) => (
+              <div key={item.step} className="text-center space-y-3">
+                <div className="w-14 h-14 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto font-heading font-extrabold text-xl">
+                  {item.step}
+                </div>
+                <h3 className="font-heading font-bold text-lg">{item.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-primary py-14">
         <div className="container text-center">
