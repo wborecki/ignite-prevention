@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin, ShieldCheck } from "lucide-react";
 import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
@@ -77,6 +77,33 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
             </div>
+          </div>
+        </div>
+
+        {/* Certificações */}
+        <div className="border-t border-background/10 mt-10 pt-8">
+          <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider text-center mb-5">
+            Certificações e Normas
+          </h4>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              "CREA/SC",
+              "NBR 13714",
+              "NBR 12693",
+              "NBR 9077",
+              "NBR 10898",
+              "ITC BMSC",
+              "AVCB",
+              "ABNT",
+            ].map((cert) => (
+              <span
+                key={cert}
+                className="inline-flex items-center gap-1.5 rounded-full border border-background/20 bg-background/5 px-3.5 py-1.5 text-xs font-semibold text-background/70 hover:bg-background/10 hover:text-primary-foreground transition-colors"
+              >
+                <ShieldCheck size={13} className="text-primary shrink-0" />
+                {cert}
+              </span>
+            ))}
           </div>
         </div>
 
