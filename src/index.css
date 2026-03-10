@@ -84,3 +84,12 @@
     @apply font-heading;
   }
 }
+
+/* Hide scrollbar */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
