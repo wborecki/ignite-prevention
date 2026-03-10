@@ -116,3 +116,17 @@ html::-webkit-scrollbar {
   opacity: 0;
   animation: wifi-fade-in 0.3s ease-out 1.1s forwards;
 }
+
+/* Infinite scroll carousel */
+@keyframes scroll-x {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll-x {
+  animation: scroll-x 30s linear infinite;
+}
+
+.animate-scroll-x:hover {
+  animation-play-state: paused;
+}
