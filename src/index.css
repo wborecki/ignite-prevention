@@ -96,34 +96,35 @@ html::-webkit-scrollbar {
 
 /* Animated WiFi Icon */
 @keyframes wifi-dot {
-  0%, 20% { opacity: 0; }
-  25%, 100% { opacity: 1; }
+  0%, 15% { opacity: 0; }
+  20%, 60% { opacity: 1; }
+  75%, 100% { opacity: 0; }
 }
 @keyframes wifi-bar1 {
-  0%, 30% { opacity: 0; stroke-dashoffset: 20; }
-  40%, 100% { opacity: 1; stroke-dashoffset: 0; }
+  0%, 25% { opacity: 0; }
+  30%, 60% { opacity: 1; }
+  75%, 100% { opacity: 0; }
 }
 @keyframes wifi-bar2 {
-  0%, 45% { opacity: 0; stroke-dashoffset: 30; }
-  55%, 100% { opacity: 1; stroke-dashoffset: 0; }
+  0%, 35% { opacity: 0; }
+  45%, 60% { opacity: 1; }
+  75%, 100% { opacity: 0; }
 }
 @keyframes wifi-bar3 {
-  0%, 60% { opacity: 0; stroke-dashoffset: 40; }
-  75%, 100% { opacity: 1; stroke-dashoffset: 0; }
+  0%, 50% { opacity: 0; }
+  60%, 65% { opacity: 1; }
+  75%, 100% { opacity: 0; }
 }
 
 .animate-wifi-dot {
   animation: wifi-dot 2.5s ease-in-out infinite;
 }
 .animate-wifi-bar1 {
-  stroke-dasharray: 20;
   animation: wifi-bar1 2.5s ease-in-out infinite;
 }
 .animate-wifi-bar2 {
-  stroke-dasharray: 30;
   animation: wifi-bar2 2.5s ease-in-out infinite;
 }
 .animate-wifi-bar3 {
-  stroke-dasharray: 40;
   animation: wifi-bar3 2.5s ease-in-out infinite;
 }
