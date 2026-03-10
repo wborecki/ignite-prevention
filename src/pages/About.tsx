@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEO, { breadcrumbSchema } from "@/components/SEO";
+import logoFull from "@/assets/logo-full.png";
 
 const About = () => {
   return (
