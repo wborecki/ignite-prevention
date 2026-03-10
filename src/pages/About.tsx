@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ShieldCheck, Zap, Eye, Heart, Building2, Factory, Hotel, Stethoscope, HardHat, ShoppingBag, MapPin, BookOpen } from "lucide-react";
 import SEO, { breadcrumbSchema } from "@/components/SEO";
-import teamInspection from "@/assets/team-inspection.jpg";
+import engineerField from "@/assets/engineer-field.jpg";
 
 const differentials = [
   { icon: ShieldCheck, title: "Rigor Técnico", desc: "Precisão e respaldo normativo em cada projeto, garantindo segurança jurídica e proteção real." },
