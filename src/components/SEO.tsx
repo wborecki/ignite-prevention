@@ -103,7 +103,7 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "WI-Fire Engenharia Contra Incêndio",
-  "description": "Empresa especializada em engenharia contra incêndio: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas em Itajaí e região.",
+  "description": "Empresa especializada em engenharia contra incêndio: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas. Atuação em Santa Catarina, Paraná e Rio Grande do Sul.",
   "url": "https://wifire.com.br",
   "telephone": "+5547997689880",
   "email": "wifireengenharia@gmail.com",
@@ -122,10 +122,17 @@ export const organizationSchema = {
     "latitude": -26.9078,
     "longitude": -48.6655
   },
-  "areaServed": {
-    "@type": "Country",
-    "name": "Brasil"
-  },
+  "areaServed": [
+    { "@type": "State", "name": "Santa Catarina" },
+    { "@type": "State", "name": "Paraná" },
+    { "@type": "State", "name": "Rio Grande do Sul" }
+  ],
+  "knowsAbout": [
+    "NBR 13714 — Sistemas de Hidrantes",
+    "NBR 12693 — Extintores de Incêndio",
+    "ABNT NBR 9077 — Saídas de Emergência",
+    "ITC BMSC — Instruções Técnicas do Corpo de Bombeiros"
+  ],
   "serviceType": [
     "Projeto Preventivo Contra Incêndio (PPCI)",
     "Relatório Preventivo Contra Incêndio (RPCI)",
