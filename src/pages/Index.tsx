@@ -249,8 +249,6 @@ const Index = () => {
       </section>
 
       {/* Sobre resumido */}
-
-      {/* Sobre resumido */}
       <section className="py-20 md:py-28 bg-background">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center space-y-6">
