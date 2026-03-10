@@ -95,36 +95,24 @@ html::-webkit-scrollbar {
 }
 
 /* Animated WiFi Icon */
-@keyframes wifi-dot {
-  0%, 15% { opacity: 0; }
-  20%, 60% { opacity: 1; }
-  75%, 100% { opacity: 0; }
-}
-@keyframes wifi-bar1 {
-  0%, 25% { opacity: 0; }
-  30%, 60% { opacity: 1; }
-  75%, 100% { opacity: 0; }
-}
-@keyframes wifi-bar2 {
-  0%, 35% { opacity: 0; }
-  45%, 60% { opacity: 1; }
-  75%, 100% { opacity: 0; }
-}
-@keyframes wifi-bar3 {
-  0%, 50% { opacity: 0; }
-  60%, 65% { opacity: 1; }
-  75%, 100% { opacity: 0; }
+@keyframes wifi-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .animate-wifi-dot {
-  animation: wifi-dot 2.5s ease-in-out infinite;
+  opacity: 0;
+  animation: wifi-fade-in 0.3s ease-out 0.2s forwards;
 }
 .animate-wifi-bar1 {
-  animation: wifi-bar1 2.5s ease-in-out infinite;
+  opacity: 0;
+  animation: wifi-fade-in 0.3s ease-out 0.5s forwards;
 }
 .animate-wifi-bar2 {
-  animation: wifi-bar2 2.5s ease-in-out infinite;
+  opacity: 0;
+  animation: wifi-fade-in 0.3s ease-out 0.8s forwards;
 }
 .animate-wifi-bar3 {
-  animation: wifi-bar3 2.5s ease-in-out infinite;
+  opacity: 0;
+  animation: wifi-fade-in 0.3s ease-out 1.1s forwards;
 }
