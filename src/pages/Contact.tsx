@@ -130,7 +130,7 @@ const Contact = () => {
 
               {/* Mapa placeholder */}
               <div className="rounded-lg overflow-hidden border border-border h-64 bg-secondary flex items-center justify-center">
-                <p className="text-muted-foreground text-sm">Porto Alegre, RS — Brasil</p>
+                <p className="text-muted-foreground text-sm">R. João Américo Watzko, 551 - São Vicente, Itajaí - SC</p>
               </div>
             </div>
           </div>
