@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const services = [
   {
@@ -81,7 +82,7 @@ const Index = () => {
         <div
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?w=1920&h=800&fit=crop')",
+            backgroundImage: `url('${heroBg}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
