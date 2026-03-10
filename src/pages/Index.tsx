@@ -3,6 +3,13 @@ import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-re
 import heroBg from "@/assets/hero-bg.jpg";
 import SEO, { organizationSchema, faqSchema } from "@/components/SEO";
 import ClientsCarousel from "@/components/ClientsCarousel";
+import projectMagazine from "@/assets/projects/magazine-luiza.jpeg";
+import projectGalpao from "@/assets/projects/galpao-itajai.jpeg";
+import projectAlmabe from "@/assets/projects/almabe-bc.jpeg";
+import projectSantaBella from "@/assets/projects/santa-bella-itajai.jpeg";
+import projectAgropet from "@/assets/projects/agropet-rio-do-meio.jpeg";
+import projectQuality from "@/assets/projects/quality-itajai.jpeg";
+import projectIntegral from "@/assets/projects/integral-curso.jpeg";
 
 const services = [
   {
@@ -45,34 +52,46 @@ const services = [
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?w=600&h=400&fit=crop",
-    title: "Extintores de Incêndio",
-    alt: "Extintor de incêndio vermelho instalado em parede de edifício comercial",
+    image: projectMagazine,
+    title: "Magazine Luiza",
+    location: "Santo Amaro da Imperatriz - SC",
+    alt: "Edificação regularizada Magazine Luiza em Santo Amaro da Imperatriz SC",
   },
   {
-    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=400&fit=crop",
-    title: "Sistema de Sprinklers",
-    alt: "Sistema de sprinklers automáticos instalados no teto para proteção contra incêndio",
+    image: projectGalpao,
+    title: "Galpão Industrial",
+    location: "Itajaí - SC",
+    alt: "Galpão industrial regularizado pela WI-Fire em Itajaí SC",
   },
   {
-    image: "https://images.unsplash.com/photo-1599707367812-042db8603456?w=600&h=400&fit=crop",
-    title: "Hidrantes",
-    alt: "Hidrante de parede vermelho com mangueira para combate a incêndio",
+    image: projectAlmabe,
+    title: "Restaurante Almabe",
+    location: "Balneário Camboriú - SC",
+    alt: "Restaurante Almabe regularizado em Balneário Camboriú SC",
   },
   {
-    image: "https://images.unsplash.com/photo-1555529771-7888783a18d3?w=600&h=400&fit=crop",
-    title: "Sinalização de Emergência",
-    alt: "Placa de sinalização de saída de emergência fotoluminescente em corredor",
+    image: projectSantaBella,
+    title: "Santa Bella",
+    location: "Itajaí - SC",
+    alt: "Comércio Santa Bella regularizado em Itajaí SC",
   },
   {
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&h=400&fit=crop",
-    title: "Alarme de Incêndio",
-    alt: "Central de alarme de incêndio e detecção automática instalada",
+    image: projectAgropet,
+    title: "Agropet Rio do Meio",
+    location: "Itajaí - SC",
+    alt: "Agropet Rio do Meio regularizado em Itajaí SC",
   },
   {
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
-    title: "Projetos Corporativos",
-    alt: "Edifício corporativo moderno com projeto contra incêndio aprovado",
+    image: projectQuality,
+    title: "Quality Transportes",
+    location: "Itajaí - SC",
+    alt: "Quality Transportes edificação regularizada em Itajaí SC",
+  },
+  {
+    image: projectIntegral,
+    title: "Integral Curso e Colégio",
+    location: "Balneário Camboriú - SC",
+    alt: "Integral Curso e Colégio regularizado em Balneário Camboriú SC",
   },
 ];
 
@@ -219,28 +238,33 @@ const Index = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Projetos Realizados
+              Edificações Regularizadas
             </h2>
             <p className="text-muted-foreground text-lg">
-              Equipamentos e instalações executados com excelência técnica
+              Projetos aprovados e edificações regularizadas pela WI-Fire
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="relative overflow-hidden rounded-lg group"
+                className="relative overflow-hidden rounded-lg group border border-border"
               >
                 <img
                   src={project.image}
                   alt={project.alt}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-72 object-cover"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-foreground/60 flex items-end opacity-0 group-hover:opacity-100 transition-opacity">
-                  <span className="text-primary-foreground font-heading font-semibold text-sm p-4">
-                    {project.title}
-                  </span>
+                <div className="absolute inset-0 bg-foreground/50 flex items-end opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="p-4">
+                    <span className="text-primary-foreground font-heading font-bold text-sm block">
+                      {project.title}
+                    </span>
+                    <span className="text-primary-foreground/70 text-xs">
+                      {project.location}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
