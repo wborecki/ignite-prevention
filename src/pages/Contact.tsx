@@ -33,7 +33,7 @@ const Contact = () => {
     const text = encodeURIComponent(
       `Olá! Meu nome é ${result.data.name}.\nEmail: ${result.data.email}\nTelefone: ${result.data.phone}\nMensagem: ${result.data.message}`
     );
-    window.open(`https://wa.me/5551999999999?text=${text}`, "_blank");
+    window.open(`https://wa.me/5547997689880?text=${text}`, "_blank");
     toast({ title: "Redirecionando para o WhatsApp..." });
   };
 

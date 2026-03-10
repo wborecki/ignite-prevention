@@ -127,7 +127,7 @@ const BlogPost = () => {
               Entre em contato com a WI-Fire e solicite um orçamento.
             </p>
             <a
-              href="https://wa.me/5551999999999?text=Olá! Gostaria de solicitar um orçamento."
+              href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-md font-heading font-bold text-sm hover:bg-primary-dark transition-colors"

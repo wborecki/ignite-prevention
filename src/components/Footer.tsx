@@ -45,15 +45,15 @@ const Footer = () => {
             </h4>
             <div className="flex items-center gap-2 text-sm">
               <Phone size={14} />
-              <span>(51) 99999-9999</span>
+              <span>(47) 99768-9880</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
               <Mail size={14} />
-              <span>contato@wifire.com.br</span>
+              <span>wifireengenharia@gmail.com</span>
             </div>
             <div className="flex items-start gap-2 text-sm">
               <MapPin size={14} className="mt-0.5 shrink-0" />
-              <span>Porto Alegre, RS</span>
+              <span>R. João Américo Watzko, 551 - São Vicente, Itajaí - SC</span>
             </div>
           </div>
 
