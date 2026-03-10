@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEO, { breadcrumbSchema } from "@/components/SEO";
+import logoFull from "@/assets/logo-full.png";
 
 const About = () => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
                 formada por engenheiros habilitados e com vasta experiência no mercado.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Atuamos em todo o Rio Grande do Sul, atendendo edificações comerciais, industriais,
+                Atuamos em todo o Brasil, atendendo edificações comerciais, industriais,
                 residenciais e de uso público. Nosso compromisso é garantir a segurança das pessoas e a
                 conformidade legal dos empreendimentos.
               </p>
@@ -49,6 +50,36 @@ const About = () => {
                 className="w-full h-80 object-cover"
                 loading="lazy"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Identidade */}
+      <section className="py-20 bg-background border-t border-border">
+        <div className="container">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="flex justify-center">
+              <img
+                src={logoFull}
+                alt="Logo WI-Fire Engenharia Contra Incêndio"
+                className="w-56 md:w-72 h-auto"
+                loading="lazy"
+              />
+            </div>
+            <div className="space-y-5">
+              <h2 className="text-3xl font-heading font-bold">
+                Nossa Marca, Nosso Propósito
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                A WI-Fire nasceu da união entre tecnologia e segurança. Nosso nome e símbolo
+                representam a conexão inteligente entre engenharia e proteção contra incêndio — 
+                como uma rede que conecta soluções a quem mais precisa.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Cada projeto que realizamos carrega o compromisso de proteger vidas e patrimônios
+                com excelência técnica, transparência e agilidade. Essa é a essência da WI-Fire.
+              </p>
             </div>
           </div>
         </div>
