@@ -36,10 +36,10 @@ const sectors = [
 ];
 
 const norms = [
-  "NBR 13714 — Sistemas de Hidrantes",
-  "NBR 12693 — Extintores de Incêndio",
-  "ITC BMSC — Instruções Técnicas",
-  "ABNT NBR 9077 — Saídas de Emergência",
+  "NBR 13714: Sistemas de Hidrantes",
+  "NBR 12693: Extintores de Incêndio",
+  "ITC BMSC: Instruções Técnicas",
+  "ABNT NBR 9077: Saídas de Emergência",
 ];
 
 const About = () => {

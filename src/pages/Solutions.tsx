@@ -4,7 +4,7 @@ import SEO, { breadcrumbSchema } from "@/components/SEO";
 const services = [
   {
     icon: Shield,
-    title: "PPCI — Projeto Preventivo Contra Incêndio",
+    title: "PPCI - Projeto Preventivo Contra Incêndio",
     description:
       "O PPCI é o projeto técnico que define todos os sistemas de proteção contra incêndio necessários para a sua edificação. Elaboramos projetos completos para todos os tipos de ocupação, com acompanhamento até a aprovação junto ao Corpo de Bombeiros.",
     items: [
@@ -16,7 +16,7 @@ const services = [
   },
   {
     icon: FileText,
-    title: "RPCI — Relatório Preventivo Contra Incêndio",
+    title: "RPCI - Relatório Preventivo Contra Incêndio",
     description:
       "O RPCI é um documento simplificado para edificações de pequeno porte. É a solução mais rápida e econômica para regularizar sua empresa junto ao Corpo de Bombeiros.",
     items: [
@@ -28,7 +28,7 @@ const services = [
   },
   {
     icon: ClipboardCheck,
-    title: "AVCB — Auto de Vistoria do Corpo de Bombeiros",
+    title: "AVCB - Auto de Vistoria do Corpo de Bombeiros",
     description:
       "O AVCB é o documento que atesta que sua edificação possui todos os sistemas de segurança contra incêndio em conformidade. Cuidamos de todo o processo de obtenção e renovação.",
     items: [
