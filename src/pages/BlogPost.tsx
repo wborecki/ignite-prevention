@@ -72,7 +72,7 @@ const BlogPost = () => {
           <Tag key={i} className={`my-4 space-y-1.5 ${isOrdered ? "list-decimal" : "list-disc"} pl-6`}>
             {items.map((item, j) => (
               <li key={j} className="text-muted-foreground leading-relaxed">
-                {item.replace(/^[-\d]+\.\s?/, "").replace(/\*\*(.*?)\*\*/g, "$1")}
+                {item.replace(/^\s*[-*]\s+/, "").replace(/^\d+\.\s*/, "").replace(/\*\*(.*?)\*\*/g, "$1")}
               </li>
             ))}
           </Tag>
