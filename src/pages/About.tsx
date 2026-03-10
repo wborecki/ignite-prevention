@@ -229,25 +229,33 @@ const About = () => {
       {/* Normas */}
       <section className="py-20 bg-secondary">
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-5">
-              <h2 className="text-3xl font-heading font-bold">
-                Excelência Técnica com Respaldo Normativo
-              </h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Cada projeto é desenvolvido com rigor técnico, documentação completa e
-                acompanhamento até a emissão do AVCB, garantindo segurança jurídica e proteção real.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <h3 className="font-heading font-bold text-lg mb-4">Normas e Regulamentações</h3>
-              {norms.map((norm) => (
-                <div key={norm} className="flex items-center gap-3 bg-background rounded-lg p-3 border border-border">
-                  <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-                  <span className="text-sm font-medium">{norm}</span>
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+              Excelência Técnica com Respaldo Normativo
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Cada projeto é desenvolvido com rigor técnico, documentação completa e
+              acompanhamento até a emissão do AVCB, garantindo segurança jurídica e proteção real.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {norms.map((norm) => (
+              <div
+                key={norm.code}
+                className="group bg-background rounded-xl p-6 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                    <BookOpen size={22} className="text-primary" />
+                  </div>
+                  <div className="space-y-1">
+                    <span className="text-xs font-bold text-primary tracking-wide uppercase">{norm.code}</span>
+                    <h3 className="font-heading font-bold text-base">{norm.name}</h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">{norm.desc}</p>
+                  </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
