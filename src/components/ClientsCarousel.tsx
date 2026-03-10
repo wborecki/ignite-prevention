@@ -35,12 +35,12 @@ const ClientsCarousel = () => {
           {[...clients, ...clients].map((client, i) => (
             <div
               key={`${client.name}-${i}`}
-              className="flex items-center justify-center h-20 px-6 shrink-0 min-w-[180px] group"
+              className="flex items-center justify-center h-28 px-8 shrink-0 min-w-[220px] group"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-16 w-auto object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
+                className="h-24 w-auto object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
               />
             </div>
           ))}
