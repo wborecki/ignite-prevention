@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SEO, { breadcrumbSchema } from "@/components/SEO";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";

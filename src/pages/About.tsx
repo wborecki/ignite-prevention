@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SEO, { breadcrumbSchema } from "@/components/SEO";
 
 const About = () => {
   return (

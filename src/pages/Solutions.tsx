@@ -1,4 +1,5 @@
 import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-react";
+import SEO, { breadcrumbSchema } from "@/components/SEO";
 
 const services = [
   {
