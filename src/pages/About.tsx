@@ -22,7 +22,7 @@ const values = [
   {
     icon: Heart,
     title: "Compromisso Social",
-    text: "A proteção de vidas é nossa prioridade absoluta. Segurança não é opcional — é engenharia.",
+    text: "A proteção de vidas é nossa prioridade absoluta. Segurança não é opcional, é engenharia.",
   },
 ];
 
