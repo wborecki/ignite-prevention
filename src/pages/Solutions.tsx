@@ -136,7 +136,7 @@ const Solutions = () => {
             Entre em contato e descubra como podemos ajudar na segurança da sua edificação.
           </p>
           <a
-            href="https://wa.me/5551999999999?text=Olá! Gostaria de solicitar um orçamento."
+            href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary-foreground text-primary px-8 py-3.5 rounded-md font-heading font-bold text-base hover:bg-primary-foreground/90 transition-colors"

@@ -33,7 +33,7 @@ const Contact = () => {
     const text = encodeURIComponent(
       `Olá! Meu nome é ${result.data.name}.\nEmail: ${result.data.email}\nTelefone: ${result.data.phone}\nMensagem: ${result.data.message}`
     );
-    window.open(`https://wa.me/5551999999999?text=${text}`, "_blank");
+    window.open(`https://wa.me/5547997689880?text=${text}`, "_blank");
     toast({ title: "Redirecionando para o WhatsApp..." });
   };
 
@@ -109,28 +109,28 @@ const Contact = () => {
                   <Phone size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Telefone</p>
-                    <p className="text-muted-foreground text-sm">(51) 99999-9999</p>
+                    <p className="text-muted-foreground text-sm">(47) 99768-9880</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Email</p>
-                    <p className="text-muted-foreground text-sm">contato@wifire.com.br</p>
+                    <p className="text-muted-foreground text-sm">wifireengenharia@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Endereço</p>
-                    <p className="text-muted-foreground text-sm">Porto Alegre, RS</p>
+                    <p className="text-muted-foreground text-sm">R. João Américo Watzko, 551 - São Vicente, Itajaí - SC</p>
                   </div>
                 </div>
               </div>
 
               {/* Mapa placeholder */}
               <div className="rounded-lg overflow-hidden border border-border h-64 bg-secondary flex items-center justify-center">
-                <p className="text-muted-foreground text-sm">Porto Alegre, RS — Brasil</p>
+                <p className="text-muted-foreground text-sm">R. João Américo Watzko, 551 - São Vicente, Itajaí - SC</p>
               </div>
             </div>
           </div>

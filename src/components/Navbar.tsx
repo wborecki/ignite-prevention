@@ -42,7 +42,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="https://wa.me/5551999999999?text=Olá! Gostaria de solicitar um orçamento."
+            href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground px-5 py-2 rounded-md text-sm font-semibold hover:bg-primary-dark transition-colors"
@@ -79,7 +79,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="https://wa.me/5551999999999?text=Olá! Gostaria de solicitar um orçamento."
+            href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold text-center hover:bg-primary-dark transition-colors"
