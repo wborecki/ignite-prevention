@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { blogPosts } from "@/data/blogPosts";
 import { ArrowLeft } from "lucide-react";
+import SEO, { createBlogPostSchema, breadcrumbSchema } from "@/components/SEO";
 
 const BlogPost = () => {
   const { slug } = useParams();

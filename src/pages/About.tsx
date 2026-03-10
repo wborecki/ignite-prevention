@@ -4,6 +4,15 @@ import SEO, { breadcrumbSchema } from "@/components/SEO";
 const About = () => {
   return (
     <>
+      <SEO
+        title="Sobre a WI-Fire - Engenharia Contra Incêndio em Itajaí SC"
+        description="Conheça a WI-Fire: empresa de engenharia especializada em prevenção e combate a incêndio em Itajaí e região. Equipe técnica qualificada e comprometida com a segurança."
+        keywords="sobre WI-Fire, empresa engenharia contra incêndio, prevenção incêndio Itajaí, equipe técnica bombeiros, engenheiro contra incêndio Santa Catarina"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "https://wifire.com.br/" },
+          { name: "Sobre", url: "https://wifire.com.br/sobre" },
+        ])}
+      />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">

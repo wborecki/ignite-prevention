@@ -1,9 +1,19 @@
 import { Link } from "react-router-dom";
 import { blogPosts } from "@/data/blogPosts";
+import SEO, { breadcrumbSchema } from "@/components/SEO";
 
 const Blog = () => {
   return (
     <>
+      <SEO
+        title="Blog - Artigos sobre Segurança Contra Incêndio | WI-Fire"
+        description="Artigos e guias completos sobre engenharia contra incêndio: PPCI, AVCB, extintores, normas ABNT, sinalização de emergência, hidrantes e mais."
+        keywords="blog segurança contra incêndio, artigos PPCI, guia AVCB, extintores tipos, normas ABNT incêndio, sinalização emergência, hidrantes prediais, engenharia contra incêndio blog"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "https://wifire.com.br/" },
+          { name: "Blog", url: "https://wifire.com.br/blog" },
+        ])}
+      />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">

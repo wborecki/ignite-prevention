@@ -79,6 +79,15 @@ const services = [
 const Solutions = () => {
   return (
     <>
+      <SEO
+        title="Soluções em Engenharia Contra Incêndio - PPCI, AVCB, Inspeções"
+        description="Conheça os serviços da WI-Fire: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas de equipamentos contra incêndio em Itajaí SC."
+        keywords="PPCI projeto preventivo incêndio, RPCI relatório preventivo, AVCB auto vistoria bombeiros, habite-se regularização, inspeção extintores hidrantes sprinklers, laudo técnico incêndio Itajaí"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "https://wifire.com.br/" },
+          { name: "Soluções", url: "https://wifire.com.br/solucoes" },
+        ])}
+      />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">
