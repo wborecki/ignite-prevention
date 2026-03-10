@@ -26,7 +26,7 @@ const Blog = () => {
               >
                 <img
                   src={post.image}
-                  alt={post.title}
+                  alt={post.imageAlt || post.title}
                   className="w-full h-52 object-cover"
                   loading="lazy"
                 />
