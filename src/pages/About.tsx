@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ShieldCheck, Zap, Eye, Heart, Building2, Factory, Hotel, Stethoscope, HardHat, ShoppingBag, MapPin, BookOpen } from "lucide-react";
 import SEO, { breadcrumbSchema } from "@/components/SEO";
 import logoFull from "@/assets/logo-full.png";
+import teamInspection from "@/assets/team-inspection.jpg";
 
 const values = [
   {
