@@ -8,9 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="space-y-4">
-            <span className="text-2xl font-heading font-extrabold text-primary-foreground">
-              WI-FIRE
-            </span>
+            <div className="flex items-center gap-2">
+              <Wifi size={24} className="text-primary" />
+              <span className="text-2xl font-heading font-extrabold text-primary-foreground">
+                WI-FIRE
+              </span>
+            </div>
             <p className="text-sm leading-relaxed text-background/60">
               Engenharia Contra Incêndio. Soluções completas para a segurança do seu patrimônio.
             </p>
