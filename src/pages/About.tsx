@@ -38,7 +38,7 @@ const About = () => {
                 formada por engenheiros habilitados e com vasta experiência no mercado.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Atuamos em todo o Rio Grande do Sul, atendendo edificações comerciais, industriais,
+                Atuamos em todo o Brasil, atendendo edificações comerciais, industriais,
                 residenciais e de uso público. Nosso compromisso é garantir a segurança das pessoas e a
                 conformidade legal dos empreendimentos.
               </p>
