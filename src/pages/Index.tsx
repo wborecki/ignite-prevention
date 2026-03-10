@@ -42,34 +42,34 @@ const services = [
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1555487505-8603a1a69755?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?w=600&h=400&fit=crop",
     title: "Extintores de Incêndio",
-    alt: "Extintores de incêndio instalados em parede comercial",
+    alt: "Extintor de incêndio vermelho instalado em parede de edifício comercial",
   },
   {
-    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=400&fit=crop",
     title: "Sistema de Sprinklers",
-    alt: "Sistema de sprinklers contra incêndio no teto",
+    alt: "Sistema de sprinklers automáticos instalados no teto para proteção contra incêndio",
   },
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1599707367812-042db8603456?w=600&h=400&fit=crop",
     title: "Hidrantes",
-    alt: "Hidrante de parede com mangueira para combate a incêndio",
+    alt: "Hidrante de parede vermelho com mangueira para combate a incêndio",
   },
   {
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1555529771-7888783a18d3?w=600&h=400&fit=crop",
     title: "Sinalização de Emergência",
-    alt: "Placa de sinalização de saída de emergência fotoluminescente",
+    alt: "Placa de sinalização de saída de emergência fotoluminescente em corredor",
   },
   {
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&h=400&fit=crop",
     title: "Alarme de Incêndio",
-    alt: "Central de alarme de incêndio instalada",
+    alt: "Central de alarme de incêndio e detecção automática instalada",
   },
   {
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
     title: "Projetos Corporativos",
-    alt: "Edifício corporativo com projeto contra incêndio aprovado",
+    alt: "Edifício corporativo moderno com projeto contra incêndio aprovado",
   },
 ];
 
