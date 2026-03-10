@@ -181,14 +181,24 @@ const About = () => {
       {/* Setores */}
       <section className="py-20 bg-secondary">
         <div className="container">
-          <h2 className="text-3xl font-heading font-bold text-center mb-12">
-            Setores que Confiam na WI-Fire
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+              Setores que Confiam na WI-Fire
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Atendemos os mais diversos segmentos com excelência técnica
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {sectors.map((s) => (
-              <div key={s.name} className="flex items-center gap-3 bg-background rounded-lg p-4 border border-border">
-                <s.icon size={24} className="text-primary shrink-0" />
-                <span className="text-sm font-medium">{s.name}</span>
+              <div
+                key={s.name}
+                className="group bg-background rounded-xl p-6 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+              >
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                  <s.icon size={24} className="text-primary" />
+                </div>
+                <span className="font-heading font-semibold text-base">{s.name}</span>
               </div>
             ))}
           </div>
