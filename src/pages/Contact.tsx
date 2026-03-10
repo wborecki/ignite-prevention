@@ -116,7 +116,7 @@ const Contact = () => {
                   <Mail size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Email</p>
-                    <p className="text-muted-foreground text-sm">contato@wifire.com.br</p>
+                    <p className="text-muted-foreground text-sm">wifireengenharia@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
