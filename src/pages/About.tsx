@@ -166,7 +166,7 @@ const About = () => {
             {[
               { title: "Experiência com Grandes Contas", desc: "Projetos executados para grandes empreendimentos comerciais, industriais e corporativos." },
               { title: "Atuação Regional Consolidada", desc: "Presença sólida em Santa Catarina, Paraná e Rio Grande do Sul." },
-              { title: "Foco em Vida", desc: "Segurança não é opcional — é engenharia. Cada projeto visa proteger pessoas." },
+              { title: "Foco em Vida", desc: "Segurança não é opcional, é engenharia. Cada projeto visa proteger pessoas." },
               { title: "Agilidade e Eficiência", desc: "Processos otimizados para rápida regularização da sua edificação." },
             ].map((d) => (
               <div key={d.title} className="border border-border rounded-lg p-6 space-y-2">
