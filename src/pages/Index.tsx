@@ -7,7 +7,6 @@ import projectMagazine from "@/assets/projects/magazine-luiza.jpeg";
 import projectGalpao from "@/assets/projects/galpao-itajai.jpeg";
 import projectAlmabe from "@/assets/projects/almabe-bc.jpeg";
 import projectSantaBella from "@/assets/projects/santa-bella-itajai.jpeg";
-import projectAgropet from "@/assets/projects/agropet-rio-do-meio.jpeg";
 import projectQuality from "@/assets/projects/quality-itajai.jpeg";
 import projectIntegral from "@/assets/projects/integral-curso.jpeg";
 
@@ -74,12 +73,6 @@ const projects = [
     title: "Santa Bella",
     location: "Itajaí - SC",
     alt: "Comércio Santa Bella regularizado em Itajaí SC",
-  },
-  {
-    image: projectAgropet,
-    title: "Agropet Rio do Meio",
-    location: "Itajaí - SC",
-    alt: "Agropet Rio do Meio regularizado em Itajaí SC",
   },
   {
     image: projectQuality,
@@ -248,15 +241,15 @@ const Index = () => {
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="relative overflow-hidden rounded-lg group border border-border"
+                className="relative overflow-hidden rounded-lg group border border-border cursor-pointer"
               >
                 <img
                   src={project.image}
                   alt={project.alt}
-                  className="w-full h-72 object-cover"
+                  className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-foreground/50 flex items-end opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-transparent to-transparent flex items-end">
                   <div className="p-4">
                     <span className="text-primary-foreground font-heading font-bold text-sm block">
                       {project.title}
