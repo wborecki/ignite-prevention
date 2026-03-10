@@ -16,7 +16,7 @@ const services = [
   },
   {
     icon: FileText,
-    title: "RPCI — Relatório Preventivo Contra Incêndio",
+    title: "RPCI - Relatório Preventivo Contra Incêndio",
     description:
       "O RPCI é um documento simplificado para edificações de pequeno porte. É a solução mais rápida e econômica para regularizar sua empresa junto ao Corpo de Bombeiros.",
     items: [
