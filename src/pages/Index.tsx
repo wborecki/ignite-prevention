@@ -238,28 +238,33 @@ const Index = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Projetos Realizados
+              Edificações Regularizadas
             </h2>
             <p className="text-muted-foreground text-lg">
-              Equipamentos e instalações executados com excelência técnica
+              Projetos aprovados e edificações regularizadas pela WI-Fire
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="relative overflow-hidden rounded-lg group"
+                className="relative overflow-hidden rounded-lg group border border-border"
               >
                 <img
                   src={project.image}
                   alt={project.alt}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-72 object-cover"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-foreground/60 flex items-end opacity-0 group-hover:opacity-100 transition-opacity">
-                  <span className="text-primary-foreground font-heading font-semibold text-sm p-4">
-                    {project.title}
-                  </span>
+                <div className="absolute inset-0 bg-foreground/50 flex items-end opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="p-4">
+                    <span className="text-primary-foreground font-heading font-bold text-sm block">
+                      {project.title}
+                    </span>
+                    <span className="text-primary-foreground/70 text-xs">
+                      {project.location}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
