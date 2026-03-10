@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SEO, { breadcrumbSchema } from "@/components/SEO";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -39,6 +40,15 @@ const Contact = () => {
 
   return (
     <>
+      <SEO
+        title="Contato - WI-Fire Engenharia Contra Incêndio Itajaí"
+        description="Entre em contato com a WI-Fire para solicitar orçamento de PPCI, AVCB, inspeções e regularizações. Atendemos Itajaí, Balneário Camboriú e toda Santa Catarina."
+        keywords="contato WI-Fire, orçamento PPCI, orçamento AVCB, engenharia contra incêndio contato, telefone WI-Fire Itajaí"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "https://wifire.com.br/" },
+          { name: "Contato", url: "https://wifire.com.br/contato" },
+        ])}
+      />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">

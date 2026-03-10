@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { blogPosts } from "@/data/blogPosts";
 import { ArrowLeft } from "lucide-react";
+import SEO, { createBlogPostSchema, breadcrumbSchema } from "@/components/SEO";
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -87,6 +88,21 @@ const BlogPost = () => {
 
   return (
     <>
+      <SEO
+        title={`${post.title} | Blog WI-Fire`}
+        description={post.excerpt}
+        keywords={`${post.title}, engenharia contra incêndio, segurança contra incêndio, WI-Fire`}
+        ogType="article"
+        ogImage={post.image}
+        jsonLd={{
+          ...createBlogPostSchema(post),
+          ...breadcrumbSchema([
+            { name: "Home", url: "https://wifire.com.br/" },
+            { name: "Blog", url: "https://wifire.com.br/blog" },
+            { name: post.title, url: `https://wifire.com.br/blog/${post.slug}` },
+          ])
+        }}
+      />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
         <div className="container">
           <Link

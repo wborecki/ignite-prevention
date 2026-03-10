@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import SEO, { organizationSchema, faqSchema } from "@/components/SEO";
 
 const services = [
   {
@@ -77,6 +78,12 @@ const projects = [
 const Index = () => {
   return (
     <>
+      <SEO
+        title="WI-Fire | Engenharia Contra Incêndio - PPCI, AVCB em Itajaí SC"
+        description="WI-Fire: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Itajaí, Balneário Camboriú e região de SC."
+        keywords="engenharia contra incêndio Itajaí, PPCI Itajaí, AVCB Santa Catarina, projeto contra incêndio, segurança contra incêndio SC, habite-se Itajaí, inspeção extintores, regularização edificação bombeiros"
+        jsonLd={organizationSchema}
+      />
       {/* Hero */}
       <section className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div
