@@ -129,7 +129,18 @@ export const organizationSchema = {
     { "@type": "City", "name": "Camboriú" },
     { "@type": "City", "name": "Blumenau" },
     { "@type": "City", "name": "Florianópolis" },
-    { "@type": "State", "name": "Santa Catarina" }
+    { "@type": "City", "name": "Joinville" },
+    { "@type": "City", "name": "Chapecó" },
+    { "@type": "City", "name": "Curitiba" },
+    { "@type": "City", "name": "Londrina" },
+    { "@type": "City", "name": "Maringá" },
+    { "@type": "City", "name": "Cascavel" },
+    { "@type": "City", "name": "Porto Alegre" },
+    { "@type": "City", "name": "Caxias do Sul" },
+    { "@type": "City", "name": "Pelotas" },
+    { "@type": "State", "name": "Santa Catarina" },
+    { "@type": "State", "name": "Paraná" },
+    { "@type": "State", "name": "Rio Grande do Sul" }
   ],
   "serviceType": [
     "Projeto Preventivo Contra Incêndio (PPCI)",
