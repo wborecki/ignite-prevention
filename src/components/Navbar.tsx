@@ -18,6 +18,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
+          <Wifi size={28} className="text-primary" />
           <span className="text-2xl font-heading font-extrabold tracking-tight text-primary">
             WI-FIRE
           </span>
