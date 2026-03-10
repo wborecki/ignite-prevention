@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const services = [
   {
