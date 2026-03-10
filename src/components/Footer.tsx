@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin, Wifi } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Wifi size={24} className="text-primary-foreground" />
+              <img src={logoIcon} alt="WI-Fire" className="h-8 w-auto brightness-0 invert" />
               <span className="text-2xl font-heading font-extrabold text-primary-foreground">
                 WI-FIRE
               </span>
