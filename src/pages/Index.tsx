@@ -248,8 +248,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Clientes */}
-      <ClientsCarousel />
+      {/* Sobre resumido */}
 
       {/* Sobre resumido */}
       <section className="py-20 md:py-28 bg-background">
