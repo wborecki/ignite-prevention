@@ -4,7 +4,7 @@ import SEO, { breadcrumbSchema } from "@/components/SEO";
 const services = [
   {
     icon: Shield,
-    title: "PPCI — Projeto Preventivo Contra Incêndio",
+    title: "PPCI - Projeto Preventivo Contra Incêndio",
     description:
       "O PPCI é o projeto técnico que define todos os sistemas de proteção contra incêndio necessários para a sua edificação. Elaboramos projetos completos para todos os tipos de ocupação, com acompanhamento até a aprovação junto ao Corpo de Bombeiros.",
     items: [
