@@ -164,13 +164,19 @@ const About = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Experiência com Grandes Contas", desc: "Projetos executados para grandes empreendimentos comerciais, industriais e corporativos." },
-              { title: "Atuação Regional Consolidada", desc: "Presença sólida em Santa Catarina, Paraná e Rio Grande do Sul." },
-              { title: "Foco em Vida", desc: "Segurança não é opcional, é engenharia. Cada projeto visa proteger pessoas." },
-              { title: "Agilidade e Eficiência", desc: "Processos otimizados para rápida regularização da sua edificação." },
+              { icon: Building2, title: "Experiência com Grandes Contas", desc: "Projetos executados para grandes empreendimentos comerciais, industriais e corporativos." },
+              { icon: MapPin, title: "Atuação Regional Consolidada", desc: "Presença sólida em Santa Catarina, Paraná e Rio Grande do Sul." },
+              { icon: Heart, title: "Foco em Vida", desc: "Segurança não é opcional, é engenharia. Cada projeto visa proteger pessoas." },
+              { icon: Zap, title: "Agilidade e Eficiência", desc: "Processos otimizados para rápida regularização da sua edificação." },
             ].map((d) => (
-              <div key={d.title} className="border border-border rounded-lg p-6 space-y-2">
-                <h3 className="font-heading font-bold text-base">{d.title}</h3>
+              <div
+                key={d.title}
+                className="group bg-secondary rounded-xl p-7 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+              >
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+                  <d.icon size={24} className="text-primary" />
+                </div>
+                <h3 className="font-heading font-bold text-base mb-2">{d.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{d.desc}</p>
               </div>
             ))}
