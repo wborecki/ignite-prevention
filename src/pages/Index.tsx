@@ -97,7 +97,7 @@ const Index = () => {
               Segurança e conformidade para sua edificação.
             </p>
             <a
-              href="https://wa.me/5551999999999?text=Olá! Gostaria de solicitar um orçamento."
+              href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-8 py-3.5 rounded-md font-heading font-bold text-base hover:bg-primary-dark transition-colors"
