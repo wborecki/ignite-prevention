@@ -123,7 +123,7 @@ const Contact = () => {
                   <MapPin size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Endereço</p>
-                    <p className="text-muted-foreground text-sm">Porto Alegre, RS</p>
+                    <p className="text-muted-foreground text-sm">R. João Américo Watzko, 551 - São Vicente, Itajaí - SC</p>
                   </div>
                 </div>
               </div>
