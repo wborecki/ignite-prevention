@@ -242,15 +242,15 @@ const Index = () => {
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="relative overflow-hidden rounded-lg group border border-border"
+                className="relative overflow-hidden rounded-lg group border border-border cursor-pointer"
               >
                 <img
                   src={project.image}
                   alt={project.alt}
-                  className="w-full h-72 object-cover"
+                  className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-foreground/50 flex items-end opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-transparent to-transparent flex items-end">
                   <div className="p-4">
                     <span className="text-primary-foreground font-heading font-bold text-sm block">
                       {project.title}
