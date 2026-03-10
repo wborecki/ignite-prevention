@@ -7,7 +7,6 @@ import projectMagazine from "@/assets/projects/magazine-luiza.jpeg";
 import projectGalpao from "@/assets/projects/galpao-itajai.jpeg";
 import projectAlmabe from "@/assets/projects/almabe-bc.jpeg";
 import projectSantaBella from "@/assets/projects/santa-bella-itajai.jpeg";
-import projectAgropet from "@/assets/projects/agropet-rio-do-meio.jpeg";
 import projectQuality from "@/assets/projects/quality-itajai.jpeg";
 import projectIntegral from "@/assets/projects/integral-curso.jpeg";
 
