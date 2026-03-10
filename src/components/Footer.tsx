@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Wifi size={24} className="text-primary" />
+              <Wifi size={24} className="text-primary-foreground" />
               <span className="text-2xl font-heading font-extrabold text-primary-foreground">
                 WI-FIRE
               </span>
