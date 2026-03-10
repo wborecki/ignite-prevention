@@ -32,9 +32,9 @@ const Navbar = () => {
             <Link
               key={link.to}
               to={link.to}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
+              className={`relative text-sm font-bold transition-colors hover:text-primary after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full ${
                 location.pathname === link.to
-                  ? "text-primary"
+                  ? "text-primary after:w-full"
                   : "text-foreground/70"
               }`}
             >
