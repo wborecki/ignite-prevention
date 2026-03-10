@@ -76,12 +76,6 @@ const projects = [
     alt: "Comércio Santa Bella regularizado em Itajaí SC",
   },
   {
-    image: projectAgropet,
-    title: "Agropet Rio do Meio",
-    location: "Itajaí - SC",
-    alt: "Agropet Rio do Meio regularizado em Itajaí SC",
-  },
-  {
     image: projectQuality,
     title: "Quality Transportes",
     location: "Itajaí - SC",
