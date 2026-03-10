@@ -1,30 +1,13 @@
 import { Link } from "react-router-dom";
 import { ShieldCheck, Zap, Eye, Heart, Building2, Factory, Hotel, Stethoscope, HardHat, ShoppingBag, MapPin, BookOpen } from "lucide-react";
 import SEO, { breadcrumbSchema } from "@/components/SEO";
-import logoFull from "@/assets/logo-full.png";
 import teamInspection from "@/assets/team-inspection.jpg";
 
-const values = [
-  {
-    icon: ShieldCheck,
-    title: "Rigor Técnico",
-    text: "Cada projeto é desenvolvido com precisão e respaldo normativo, garantindo segurança jurídica e proteção real.",
-  },
-  {
-    icon: Zap,
-    title: "Agilidade",
-    text: "Processos otimizados para rápida regularização. Sabemos que prazos importam e trabalhamos para entregar no menor tempo possível.",
-  },
-  {
-    icon: Eye,
-    title: "Transparência",
-    text: "Comunicação clara em cada etapa do projeto, para que você saiba exatamente o que está sendo feito e por quê.",
-  },
-  {
-    icon: Heart,
-    title: "Compromisso Social",
-    text: "A proteção de vidas é nossa prioridade absoluta. Segurança não é opcional, é engenharia.",
-  },
+const differentials = [
+  { icon: ShieldCheck, title: "Rigor Técnico", desc: "Precisão e respaldo normativo em cada projeto, garantindo segurança jurídica e proteção real." },
+  { icon: Zap, title: "Agilidade", desc: "Processos otimizados para rápida regularização. Prazos importam e entregamos no menor tempo." },
+  { icon: Eye, title: "Transparência", desc: "Comunicação clara em cada etapa, para que você saiba exatamente o que está sendo feito." },
+  { icon: Heart, title: "Compromisso com a Vida", desc: "Segurança não é opcional, é engenharia. Cada projeto visa proteger pessoas." },
 ];
 
 const sectors = [
@@ -68,31 +51,43 @@ const About = () => {
         </div>
       </section>
 
-      {/* Missão e Visão */}
+      {/* Missão, Visão e Engenheiro */}
       <section className="py-20 bg-background">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="space-y-4">
+            <div className="space-y-8">
+              <div className="space-y-3">
                 <h2 className="text-3xl font-heading font-bold">Nossa Missão</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Proteger o patrimônio e, acima de tudo, a vida, através da engenharia de precisão
-                  e soluções inovadoras em segurança contra incêndio no Sul do Brasil, reconhecida
-                  pela excelência técnica, agilidade e compromisso com a vida.
+                  e soluções inovadoras em segurança contra incêndio no Sul do Brasil.
                 </p>
               </div>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 <h2 className="text-3xl font-heading font-bold">Nossa Visão</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Ser referência em regularização e segurança contra incêndio na Região Sul do Brasil.
+                  Ser referência em regularização e segurança contra incêndio na Região Sul do Brasil,
+                  reconhecida pela excelência técnica, agilidade e compromisso com a vida.
+                </p>
+              </div>
+              <div className="border-t border-border pt-6 space-y-1">
+                <p className="text-xl font-heading font-bold text-primary">
+                  Eng. Iriãn M. Padilha
+                </p>
+                <p className="text-muted-foreground text-sm">
+                  CREA/SC — Engenheiro de Segurança Contra Incêndio
+                </p>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Responsável técnico por todos os projetos da WI-Fire, com experiência consolidada
+                  em regularização e segurança contra incêndio na Região Sul do Brasil.
                 </p>
               </div>
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-xl overflow-hidden">
               <img
                 src={teamInspection}
                 alt="Equipe de engenharia em campo realizando inspeção de segurança contra incêndio"
-                className="w-full h-80 object-cover"
+                className="w-full h-[480px] object-cover"
                 loading="lazy"
               />
             </div>
@@ -100,60 +95,8 @@ const About = () => {
         </div>
       </section>
 
-      {/* Identidade */}
-      <section className="py-20 bg-background border-t border-border">
-        <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="flex justify-center">
-              <img
-                src={logoFull}
-                alt="Logo WI-Fire Engenharia Contra Incêndio"
-                className="w-56 md:w-72 h-auto"
-                loading="lazy"
-              />
-            </div>
-            <div className="space-y-5">
-              <h2 className="text-3xl font-heading font-bold">
-                Nossa Marca, Nosso Propósito
-              </h2>
-              <p className="text-muted-foreground leading-relaxed">
-                A WI-Fire nasceu da união entre tecnologia e segurança. Nosso nome e símbolo
-                representam a conexão inteligente entre engenharia e proteção contra incêndio —
-                como uma rede que conecta soluções a quem mais precisa.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Cada projeto que realizamos carrega o compromisso de proteger vidas e patrimônios
-                com excelência técnica, transparência e agilidade. Essa é a essência da WI-Fire.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Valores */}
+      {/* Diferenciais e Valores unificados */}
       <section className="py-20 bg-secondary">
-        <div className="container">
-          <h2 className="text-3xl font-heading font-bold text-center mb-12">
-            Nossos Valores
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {values.map((v) => (
-              <div key={v.title} className="text-center space-y-3">
-                <div className="flex justify-center">
-                  <v.icon size={36} className="text-primary" />
-                </div>
-                <h3 className="text-xl font-heading font-bold">{v.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {v.text}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Diferenciais */}
-      <section className="py-20 bg-background">
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
@@ -163,16 +106,11 @@ const About = () => {
               Diferenciais que nos tornam a escolha certa para a segurança da sua edificação
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { icon: Building2, title: "Experiência com Grandes Contas", desc: "Projetos executados para grandes empreendimentos comerciais, industriais e corporativos." },
-              { icon: MapPin, title: "Atuação Regional Consolidada", desc: "Presença sólida em Santa Catarina, Paraná e Rio Grande do Sul." },
-              { icon: Heart, title: "Foco em Vida", desc: "Segurança não é opcional, é engenharia. Cada projeto visa proteger pessoas." },
-              { icon: Zap, title: "Agilidade e Eficiência", desc: "Processos otimizados para rápida regularização da sua edificação." },
-            ].map((d) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {differentials.map((d) => (
               <div
                 key={d.title}
-                className="group bg-secondary rounded-xl p-7 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+                className="group bg-background rounded-xl p-7 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
                   <d.icon size={24} className="text-primary" />
@@ -185,22 +123,22 @@ const About = () => {
         </div>
       </section>
 
-      {/* Setores */}
-      <section className="py-20 bg-secondary">
+      {/* Setores + Área de Atuação */}
+      <section className="py-20 bg-background">
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Setores que Confiam na WI-Fire
+              Setores e Área de Atuação
             </h2>
             <p className="text-muted-foreground text-lg">
-              Atendemos os mais diversos segmentos com excelência técnica
+              Atendemos os mais diversos segmentos em toda a Região Sul do Brasil
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
             {sectors.map((s) => (
               <div
                 key={s.name}
-                className="group bg-background rounded-xl p-6 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+                className="group bg-secondary rounded-xl p-6 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <s.icon size={24} className="text-primary" />
@@ -209,26 +147,13 @@ const About = () => {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Área de Atuação */}
-      <section className="py-20 bg-background">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl font-heading font-bold">Área de Atuação</h2>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              Estamos onde você precisa. Atuação em toda a Região Sul do Brasil,
-              com conhecimento profundo das legislações estaduais e municipais.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 mt-6">
-              {["Santa Catarina", "Paraná", "Rio Grande do Sul"].map((state) => (
-                <span key={state} className="inline-flex items-center gap-2 bg-secondary rounded-full px-5 py-2.5 font-medium text-sm">
-                  <MapPin size={16} className="text-primary" />
-                  {state}
-                </span>
-              ))}
-            </div>
+          <div className="flex flex-wrap justify-center gap-4">
+            {["Santa Catarina", "Paraná", "Rio Grande do Sul"].map((state) => (
+              <span key={state} className="inline-flex items-center gap-2 bg-secondary rounded-full px-5 py-2.5 font-medium text-sm">
+                <MapPin size={16} className="text-primary" />
+                {state}
+              </span>
+            ))}
           </div>
         </div>
       </section>
@@ -238,11 +163,10 @@ const About = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Excelência Técnica com Respaldo Normativo
+              Respaldo Normativo
             </h2>
             <p className="text-muted-foreground text-lg">
-              Cada projeto é desenvolvido com rigor técnico, documentação completa e
-              acompanhamento até a emissão do AVCB, garantindo segurança jurídica e proteção real.
+              Projetos desenvolvidos com rigor técnico e documentação completa até a emissão do AVCB
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -263,25 +187,6 @@ const About = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Engenheiro */}
-      <section className="py-20 bg-background">
-        <div className="container">
-          <div className="max-w-2xl mx-auto text-center space-y-4">
-            <h2 className="text-3xl font-heading font-bold">Nosso Engenheiro</h2>
-            <p className="text-xl font-heading font-semibold text-primary">
-              Eng. Iriãn M. Padilha
-            </p>
-            <p className="text-muted-foreground">
-              CREA/SC — Engenheiro de Segurança Contra Incêndio
-            </p>
-            <p className="text-muted-foreground text-sm leading-relaxed max-w-lg mx-auto">
-              Responsável técnico por todos os projetos da WI-Fire, com experiência consolidada
-              em regularização e segurança contra incêndio na Região Sul do Brasil.
-            </p>
           </div>
         </div>
       </section>
