@@ -28,7 +28,7 @@ const services = [
   },
   {
     icon: ClipboardCheck,
-    title: "AVCB — Auto de Vistoria do Corpo de Bombeiros",
+    title: "AVCB - Auto de Vistoria do Corpo de Bombeiros",
     description:
       "O AVCB é o documento que atesta que sua edificação possui todos os sistemas de segurança contra incêndio em conformidade. Cuidamos de todo o processo de obtenção e renovação.",
     items: [

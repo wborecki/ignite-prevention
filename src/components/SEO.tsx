@@ -128,10 +128,10 @@ export const organizationSchema = {
     { "@type": "State", "name": "Rio Grande do Sul" }
   ],
   "knowsAbout": [
-    "NBR 13714 — Sistemas de Hidrantes",
-    "NBR 12693 — Extintores de Incêndio",
-    "ABNT NBR 9077 — Saídas de Emergência",
-    "ITC BMSC — Instruções Técnicas do Corpo de Bombeiros"
+    "NBR 13714: Sistemas de Hidrantes",
+    "NBR 12693: Extintores de Incêndio",
+    "ABNT NBR 9077: Saídas de Emergência",
+    "ITC BMSC: Instruções Técnicas do Corpo de Bombeiros"
   ],
   "serviceType": [
     "Projeto Preventivo Contra Incêndio (PPCI)",
