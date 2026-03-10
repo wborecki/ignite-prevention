@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import AnimatedWifiIcon from "./AnimatedWifiIcon";
+import logoIcon from "@/assets/logo-icon.png";
 
 const navLinks = [
   { label: "Home", to: "/" },
