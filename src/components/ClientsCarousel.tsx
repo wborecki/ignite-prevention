@@ -24,23 +24,23 @@ const clients = [
 
 const ClientsCarousel = () => {
   return (
-    <section className="py-10 md:py-14 bg-background">
+    <section className="py-16 md:py-20 bg-background border-t border-border">
       <div className="container">
-        <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-8">
+        <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12">
           Clientes que Confiam na WI-Fire
         </h2>
       </div>
-      <div className="relative overflow-hidden clients-carousel-fade">
-        <div className="flex animate-scroll-x gap-8 w-max">
+      <div className="relative overflow-hidden">
+        <div className="flex animate-scroll-x gap-12 w-max">
           {[...clients, ...clients].map((client, i) => (
             <div
               key={`${client.name}-${i}`}
-              className="flex items-center justify-center h-20 px-6 shrink-0 min-w-[180px] group"
+              className="flex items-center justify-center h-36 px-10 shrink-0 min-w-[260px] group"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-16 md:h-20 w-auto object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
+                className="h-32 w-auto object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
               />
             </div>
           ))}

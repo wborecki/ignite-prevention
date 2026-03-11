@@ -124,32 +124,11 @@ html::-webkit-scrollbar {
 }
 
 .animate-scroll-x {
-  animation: scroll-x 25s linear infinite;
+  animation: scroll-x 30s linear infinite;
 }
 
 .animate-scroll-x:hover {
   animation-play-state: paused;
-}
-
-.clients-carousel-fade::before,
-.clients-carousel-fade::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 80px;
-  z-index: 10;
-  pointer-events: none;
-}
-
-.clients-carousel-fade::before {
-  left: 0;
-  background: linear-gradient(to right, hsl(var(--background)), transparent);
-}
-
-.clients-carousel-fade::after {
-  right: 0;
-  background: linear-gradient(to left, hsl(var(--background)), transparent);
 }
 
 /* WhatsApp button animations */
