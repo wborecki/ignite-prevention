@@ -63,7 +63,7 @@ const Footer = () => {
 
           {/* Redes sociais */}
           <div className="space-y-3">
-            <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider">
+            <h4 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">
               Redes Sociais
             </h4>
             <div className="flex gap-4">
