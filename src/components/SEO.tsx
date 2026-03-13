@@ -170,7 +170,7 @@ export const createBlogPostSchema = (post: {
   "dateModified": post.date,
   "author": {
     "@type": "Organization",
-    "name": "WI-Fire Engenharia Contra Incêndio",
+     "name": "WI-FIRE Engenharia Contra Incêndio",
     "url": "https://wifire.com.br"
   },
   "publisher": {
