@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2 text-sm">
               <Mail size={14} />
-              <span>wifireengenharia@gmail.com</span>
+              <span>contato@wifire-engenharia.com.br</span>
             </div>
             <div className="flex items-start gap-2 text-sm">
               <MapPin size={14} className="mt-0.5 shrink-0" />
