@@ -83,7 +83,7 @@ const projects = [
   {
     image: projectIntegral,
     title: "Integral Curso e Colégio",
-    location: "Balneário Camboriú - SC",
+    location: "Itajaí - SC",
     alt: "Integral Curso e Colégio regularizado em Balneário Camboriú SC",
   },
 ];
