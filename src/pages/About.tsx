@@ -128,7 +128,7 @@ const About = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Setores e Área de Atuação
+              Setores e Área de <span className="text-primary">Atuação</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Atendemos os mais diversos segmentos em toda a Região Sul do Brasil
