@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Jean Marques",
-    text: "Ótima empresa. Extremamente profissionais, deram todo o suporte necessário durante o projeto, sempre tirando nossas dúvidas e esclarecendo todas as etapas. Nosso PPCI ficou pronto em questão de poucos dias. Melhor custo benefício da região.",
+    text: "Ótima empresa. Extremamente profissionais, deram todo o suporte necessário durante o projeto, sempre tirando nossas dúvidas e esclarecendo todas as etapas. Nosso PPCI ficou pronto em questão de poucos dias.",
   },
   {
     name: "Maynara Silva",
@@ -33,9 +33,9 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
-      <div className="container">
-        <div className="text-center max-w-2xl mx-auto mb-14">
+    <section className="py-16 md:py-20 bg-background overflow-hidden">
+      <div className="container mb-10">
+        <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             O que nossos <span className="text-primary">clientes</span> dizem
           </h2>
@@ -43,19 +43,17 @@ const Testimonials = () => {
             Depoimentos reais de quem confia no trabalho da WI-FIRE
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((t) => (
+      </div>
+      <div className="relative">
+        <div className="flex animate-scroll-x gap-6 w-max">
+          {[...testimonials, ...testimonials].map((t, i) => (
             <div
-              key={t.name}
-              className="border border-border rounded-lg p-6 space-y-4 hover:border-primary/30 transition-colors"
+              key={`${t.name}-${i}`}
+              className="border border-border rounded-lg p-6 space-y-3 shrink-0 w-[340px] bg-background"
             >
               <div className="flex gap-0.5">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star
-                    key={i}
-                    size={16}
-                    className="fill-primary text-primary"
-                  />
+                {Array.from({ length: 5 }).map((_, j) => (
+                  <Star key={j} size={14} className="fill-primary text-primary" />
                 ))}
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
