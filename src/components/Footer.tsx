@@ -15,7 +15,7 @@ const Footer = () => {
                 WI-FIRE
               </span>
             </div>
-            <p className="text-sm leading-relaxed text-background/60">
+            <p className="text-sm leading-relaxed text-white/60">
               Engenharia Contra Incêndio. Soluções completas para a segurança do seu patrimônio.
             </p>
           </div>
