@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin, Youtube } from "lucide-react";
 import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
@@ -67,14 +67,14 @@ const Footer = () => {
               Redes Sociais
             </h4>
             <div className="flex gap-4">
-              <a href="#" aria-label="Instagram" className="hover:text-white transition-colors">
+              <a href="https://www.instagram.com/wifireengenharia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" aria-label="Facebook" className="hover:text-white transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-white transition-colors">
+              <a href="https://br.linkedin.com/company/wi-fire-engenharia-contra-inc%C3%AAndio" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors">
                 <Linkedin size={20} />
+              </a>
+              <a href="https://www.youtube.com/@wi-fire-engenhariacontrain8045" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="hover:text-white transition-colors">
+                <Youtube size={20} />
               </a>
             </div>
           </div>
