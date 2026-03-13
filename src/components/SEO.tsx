@@ -9,6 +9,7 @@ interface SEOProps {
   ogType?: string;
   ogImage?: string;
   jsonLd?: Record<string, unknown>;
+  additionalJsonLd?: Record<string, unknown>[];
 }
 
 const SITE_URL = "https://wifire.com.br";
@@ -23,6 +24,7 @@ const SEO = ({
   ogType = "website",
   ogImage,
   jsonLd,
+  additionalJsonLd,
 }: SEOProps) => {
   const location = useLocation();
   const fullTitle = title.includes("WI-FIRE") ? title : `${title} | WI-FIRE Engenharia Contra Incêndio`;
@@ -87,11 +89,24 @@ const SEO = ({
       script.textContent = JSON.stringify(jsonLd);
     }
 
+    // Additional JSON-LD schemas
+    if (additionalJsonLd?.length) {
+      // Remove old additional scripts
+      document.querySelectorAll('script[data-seo="additional"]').forEach(el => el.remove());
+      additionalJsonLd.forEach((schema) => {
+        const script = document.createElement("script");
+        script.type = "application/ld+json";
+        script.setAttribute("data-seo", "additional");
+        script.textContent = JSON.stringify(schema);
+        document.head.appendChild(script);
+      });
+    }
+
     return () => {
-      const dynamicScript = document.querySelector('script[data-seo="dynamic"]');
-      if (dynamicScript) dynamicScript.remove();
+      document.querySelector('script[data-seo="dynamic"]')?.remove();
+      document.querySelectorAll('script[data-seo="additional"]').forEach(el => el.remove());
     };
-  }, [fullTitle, description, keywords, canonicalUrl, ogType, image, jsonLd]);
+  }, [fullTitle, description, keywords, canonicalUrl, ogType, image, jsonLd, additionalJsonLd]);
 
   return null;
 };
