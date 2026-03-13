@@ -57,14 +57,14 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-3">
-                <h2 className="text-3xl font-heading font-bold">Nossa <span className="text-primary">Missão</span></h2>
+                <h2 className="text-3xl font-heading font-bold">Nossa Missão</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Proteger o patrimônio e, acima de tudo, a vida, através da engenharia de precisão
                   e soluções inovadoras em segurança contra incêndio no Sul do Brasil.
                 </p>
               </div>
               <div className="space-y-3">
-                <h2 className="text-3xl font-heading font-bold">Nossa <span className="text-primary">Visão</span></h2>
+                <h2 className="text-3xl font-heading font-bold">Nossa Visão</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Ser referência em regularização e segurança contra incêndio na Região Sul do Brasil,
                   reconhecida pela excelência técnica, agilidade e compromisso com a vida.
