@@ -110,8 +110,8 @@ const Index = () => {
         <div className="relative container py-24 md:py-36">
           <div className="max-w-2xl space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight">
-              Engenharia Contra Incêndio que{" "}
-              <span className="text-primary">protege</span> seu patrimônio
+               Engenharia Contra Incêndio que{" "}
+               <span className="text-primary">protege</span> seu patrimônio
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/70 leading-relaxed">
               Soluções completas em PPCI, AVCB, inspeções e regularizações.
