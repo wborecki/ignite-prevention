@@ -48,7 +48,7 @@ const Testimonials = () => {
             O que nossos <span className="text-primary">clientes</span> dizem
           </h2>
           <p className="text-muted-foreground text-lg">
-            Avaliações reais do Google Meu Negócio
+            Depoimentos reais de quem confia no trabalho da WI-FIRE
           </p>
         </div>
       </div>
