@@ -57,7 +57,7 @@ const Testimonials = () => {
           {[...testimonials, ...testimonials].map((t, i) => (
             <div
               key={`${t.name}-${i}`}
-              className="border border-border rounded-lg p-6 flex flex-col shrink-0 w-[340px] h-[200px] bg-background"
+              className="border border-border rounded-lg p-6 flex flex-col shrink-0 w-[340px] h-[230px] bg-background"
             >
               <div className="flex gap-0.5 mb-3">
                 {Array.from({ length: 5 }).map((_, j) => (
