@@ -57,17 +57,17 @@ const Testimonials = () => {
           {[...testimonials, ...testimonials].map((t, i) => (
             <div
               key={`${t.name}-${i}`}
-              className="border border-border rounded-lg p-6 space-y-3 shrink-0 w-[340px] bg-background"
+              className="border border-border rounded-lg p-6 flex flex-col shrink-0 w-[340px] h-[200px] bg-background"
             >
-              <div className="flex gap-0.5">
+              <div className="flex gap-0.5 mb-3">
                 {Array.from({ length: 5 }).map((_, j) => (
                   <Star key={j} size={14} className="fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-sm text-muted-foreground leading-relaxed flex-1">
                 "{t.text}"
               </p>
-              <p className="font-heading font-bold text-sm">{t.name}</p>
+              <p className="font-heading font-bold text-sm mt-3">{t.name}</p>
             </div>
           ))}
         </div>
