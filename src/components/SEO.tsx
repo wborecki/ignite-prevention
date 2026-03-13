@@ -9,6 +9,7 @@ interface SEOProps {
   ogType?: string;
   ogImage?: string;
   jsonLd?: Record<string, unknown>;
+  additionalJsonLd?: Record<string, unknown>[];
 }
 
 const SITE_URL = "https://wifire.com.br";
