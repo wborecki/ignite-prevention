@@ -269,9 +269,9 @@ Define requisitos para projeto, instalação e manutenção de sistemas de detec
 - **Multas e interdições**
 - **Responsabilidade legal** em caso de sinistro
 
-## WI-Fire: projetos em conformidade
+## WI-FIRE: projetos em conformidade
 
-Todos os projetos da WI-Fire são elaborados em total conformidade com as normas ABNT vigentes. Garantimos que sua edificação atenda a todos os requisitos técnicos e legais.`,
+Todos os projetos da WI-FIRE são elaborados em total conformidade com as normas ABNT vigentes. Garantimos que sua edificação atenda a todos os requisitos técnicos e legais.`,
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
     imageAlt: "Profissional analisando documentação e normas técnicas de engenharia",
     date: "2025-10-15",
