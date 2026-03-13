@@ -44,7 +44,7 @@ const Footer = () => {
 
           {/* Contato */}
           <div className="space-y-3">
-            <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider">
+            <h4 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">
               Contato
             </h4>
             <div className="flex items-center gap-2 text-sm">
