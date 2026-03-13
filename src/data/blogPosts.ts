@@ -221,9 +221,9 @@ A definição depende de fatores como:
 - **Tipo de ocupação** (comercial, industrial, residencial)
 - **Grau de risco** da atividade
 
-## Consultoria WI-Fire
+## Consultoria WI-FIRE
 
-Não sabe se precisa de PPCI ou RPCI? A WI-Fire faz a análise da sua edificação e indica a melhor solução. Entre em contato para uma consultoria personalizada.`,
+Não sabe se precisa de PPCI ou RPCI? A WI-FIRE faz a análise da sua edificação e indica a melhor solução. Entre em contato para uma consultoria personalizada.`,
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=500&fit=crop",
     imageAlt: "Plantas e projetos de engenharia contra incêndio sobre mesa",
     date: "2025-11-05",
