@@ -21,7 +21,7 @@ const ClientsCarousel = () => {
     <section className="py-10 md:py-14 bg-background border-t border-border">
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12">
-          Clientes que <span className="text-primary">Confiam</span> na <span className="text-primary uppercase">WI-FIRE</span>
+          Clientes que Confiam na <span className="text-primary uppercase">WI-FIRE</span>
         </h2>
       </div>
       <div className="relative overflow-hidden">
