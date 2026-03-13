@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <>
       <SEO
-        title="Blog - Artigos sobre Segurança Contra Incêndio | WI-Fire"
+        title="Blog - Artigos sobre Segurança Contra Incêndio | WI-FIRE"
         description="Artigos e guias completos sobre engenharia contra incêndio: PPCI, AVCB, extintores, normas ABNT, sinalização de emergência, hidrantes e mais."
         keywords="blog segurança contra incêndio, artigos PPCI, guia AVCB, extintores tipos, normas ABNT incêndio, sinalização emergência, hidrantes prediais, engenharia contra incêndio blog"
         jsonLd={breadcrumbSchema([

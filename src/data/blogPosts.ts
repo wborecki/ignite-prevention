@@ -394,9 +394,9 @@ O dimensionamento dos extintores segue a **NBR 12693** e considera:
 - **Quantidade insuficiente** para a área
 - **Localização inadequada** — obstruídos ou em locais de difícil acesso
 
-## Assessoria WI-Fire
+## Assessoria WI-FIRE
 
-A WI-Fire realiza o dimensionamento correto dos extintores para sua edificação, garantindo conformidade com a NBR 12693 e aprovação junto ao Corpo de Bombeiros.`,
+A WI-FIRE realiza o dimensionamento correto dos extintores para sua edificação, garantindo conformidade com a NBR 12693 e aprovação junto ao Corpo de Bombeiros.`,
     image: escolherExtintor,
     imageAlt: "Extintor de incêndio instalado em pilar de estabelecimento comercial",
     date: "2025-08-18",

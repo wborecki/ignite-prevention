@@ -92,8 +92,8 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="WI-Fire | Engenharia Contra Incêndio - PPCI, AVCB em Itajaí SC"
-        description="WI-Fire: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Itajaí, Balneário Camboriú e região de SC."
+         title="WI-FIRE | Engenharia Contra Incêndio - PPCI, AVCB em Itajaí SC"
+         description="WI-FIRE: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Itajaí, Balneário Camboriú e região de SC."
         keywords="engenharia contra incêndio Itajaí, PPCI Itajaí, AVCB Santa Catarina, projeto contra incêndio, segurança contra incêndio SC, habite-se Itajaí, inspeção extintores, regularização edificação bombeiros, PPCI Balneário Camboriú, AVCB Paraná, AVCB Rio Grande do Sul, engenharia incêndio região sul, regularização corpo de bombeiros, NBR 13714, NBR 12693, projeto preventivo incêndio comercial, projeto preventivo incêndio industrial"
         jsonLd={organizationSchema}
       />

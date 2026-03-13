@@ -81,7 +81,7 @@ const Solutions = () => {
     <>
       <SEO
         title="Soluções em Engenharia Contra Incêndio - PPCI, AVCB, Inspeções"
-        description="Conheça os serviços da WI-Fire: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas de equipamentos contra incêndio em Itajaí SC."
+        description="Conheça os serviços da WI-FIRE: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas de equipamentos contra incêndio em Itajaí SC."
         keywords="PPCI projeto preventivo incêndio, RPCI relatório preventivo, AVCB auto vistoria bombeiros, habite-se regularização, inspeção extintores hidrantes sprinklers, laudo técnico incêndio Itajaí, alvará funcionamento bombeiros, sprinklers dimensionamento, alarme incêndio detecção, manutenção hidrantes SC, renovação AVCB, projeto incêndio galpão industrial, projeto incêndio hotel, projeto incêndio hospital"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "https://wifire.com.br/" },
