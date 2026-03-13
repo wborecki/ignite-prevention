@@ -3,6 +3,7 @@ import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-re
 import heroBg from "@/assets/hero-bg.jpg";
 import SEO, { organizationSchema, faqSchema } from "@/components/SEO";
 import ClientsCarousel from "@/components/ClientsCarousel";
+import Testimonials from "@/components/Testimonials";
 import projectMagazine from "@/assets/projects/magazine-luiza.jpeg";
 import projectGalpao from "@/assets/projects/galpao-itajai.jpeg";
 import projectAlmabe from "@/assets/projects/almabe-bc.jpeg";
@@ -225,6 +226,9 @@ const Index = () => {
           </a>
         </div>
       </section>
+
+      {/* Depoimentos */}
+      <Testimonials />
 
       {/* Projetos Realizados */}
       <section className="py-20 md:py-28 bg-secondary">
