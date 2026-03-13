@@ -231,7 +231,7 @@ const Index = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Edificações Regularizadas
+              Edificações <span className="text-primary">Regularizadas</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Projetos aprovados e edificações regularizadas pela WI-FIRE
