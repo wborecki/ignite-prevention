@@ -446,9 +446,9 @@ A manutenção periódica é essencial e inclui:
 - **Teste anual** de vazão e pressão
 - **Revalidação** das mangueiras (teste hidrostático a cada 5 anos)
 
-## Projeto e execução com a WI-Fire
+## Projeto e execução com a WI-FIRE
 
-A WI-Fire projeta e acompanha a instalação de sistemas de hidrantes em total conformidade com a NBR 13714, garantindo o funcionamento adequado e aprovação pelo Corpo de Bombeiros.`,
+A WI-FIRE projeta e acompanha a instalação de sistemas de hidrantes em total conformidade com a NBR 13714, garantindo o funcionamento adequado e aprovação pelo Corpo de Bombeiros.`,
     image: hidrantesPrediais,
     imageAlt: "Caixa de hidrante predial com mangueiras de incêndio enroladas",
     date: "2025-07-25",
