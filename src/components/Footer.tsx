@@ -35,7 +35,7 @@ const Footer = () => {
               <Link
                 key={link.to}
                 to={link.to}
-                className="block text-sm hover:text-primary-foreground transition-colors"
+                className="block text-sm hover:text-white transition-colors"
               >
                 {link.label}
               </Link>
