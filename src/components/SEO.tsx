@@ -106,7 +106,7 @@ export const organizationSchema = {
   "description": "Empresa especializada em engenharia contra incêndio: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas. Atuação em Santa Catarina, Paraná e Rio Grande do Sul.",
   "url": "https://wifire.com.br",
   "telephone": "+5547997689880",
-  "email": "wifireengenharia@gmail.com",
+  "email": "contato@wifire-engenharia.com.br",
   "image": "https://wifire.com.br/og-image.jpg",
   "priceRange": "$$",
   "address": {
