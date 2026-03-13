@@ -326,9 +326,9 @@ A sinalização de emergência é obrigatória em:
 - Teste da **capacidade fotoluminescente**
 - Verificação de **desobstrução** das rotas sinalizadas
 
-## Sinalização correta com a WI-Fire
+## Sinalização correta com a WI-FIRE
 
-A WI-Fire projeta e acompanha a instalação de toda a sinalização de emergência conforme as normas ABNT. Garanta a segurança dos ocupantes da sua edificação.`,
+A WI-FIRE projeta e acompanha a instalação de toda a sinalização de emergência conforme as normas ABNT. Garanta a segurança dos ocupantes da sua edificação.`,
     image: sinalizacaoEmergencia,
     imageAlt: "Placa de sinalização de saída de emergência instalada no teto de estabelecimento comercial",
     date: "2025-09-20",
