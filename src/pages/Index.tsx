@@ -137,7 +137,7 @@ const Index = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Nossos Serviços
+              Nossos <span className="text-primary">Serviços</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Oferecemos soluções que fazem a diferença na segurança contra incêndio
