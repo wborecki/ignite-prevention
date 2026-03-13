@@ -78,7 +78,7 @@ const About = () => {
                   CREA/SC — Engenheiro de Segurança Contra Incêndio
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Responsável técnico por todos os projetos da WI-Fire, com experiência consolidada
+                  Responsável técnico por todos os projetos da WI-FIRE, com experiência consolidada
                   em regularização e segurança contra incêndio na Região Sul do Brasil.
                 </p>
               </div>
