@@ -52,9 +52,9 @@ O projeto define os sistemas de proteção necessários de acordo com a ocupaç�
 5. **Execução das instalações** conforme projeto aprovado
 6. **Vistoria final** para emissão do AVCB
 
-## Por que a WI-Fire?
+## Por que a WI-FIRE?
 
-Na WI-Fire, nossos engenheiros possuem ampla experiência na elaboração de PPCIs para todos os tipos de edificação. Cuidamos de todo o processo, desde o levantamento até a aprovação final, garantindo agilidade e conformidade com as normas vigentes.
+Na WI-FIRE, nossos engenheiros possuem ampla experiência na elaboração de PPCIs para todos os tipos de edificação. Cuidamos de todo o processo, desde o levantamento até a aprovação final, garantindo agilidade e conformidade com as normas vigentes.
 
 **Solicite seu orçamento** e regularize sua edificação com quem entende do assunto.`,
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=500&fit=crop",
@@ -110,9 +110,9 @@ O AVCB possui prazo de validade que varia conforme o tipo de ocupação:
 - **Industrial**: 3 anos
 - **Reunião de público**: 2 anos
 
-## A WI-Fire cuida de tudo
+## A WI-FIRE cuida de tudo
 
-Da elaboração do PPCI até a obtenção do AVCB, a WI-Fire acompanha todo o processo para que você não tenha preocupações. Entre em contato e solicite seu orçamento.`,
+Da elaboração do PPCI até a obtenção do AVCB, a WI-FIRE acompanha todo o processo para que você não tenha preocupações. Entre em contato e solicite seu orçamento.`,
     image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
     imageAlt: "Documentação e processo de vistoria do Corpo de Bombeiros",
     date: "2026-01-20",
@@ -168,7 +168,7 @@ Ensaio de pressão no cilindro para verificar integridade estrutural.
 - **Responsabilidade civil e criminal** em caso de sinistro
 - **Perda de cobertura** de seguro
 
-## Conte com a WI-Fire
+## Conte com a WI-FIRE
 
 Realizamos inspeções preventivas completas em todos os equipamentos contra incêndio do seu estabelecimento, garantindo conformidade e segurança. Agende uma visita técnica.`,
     image: inspecaoExtintores,
@@ -221,9 +221,9 @@ A definição depende de fatores como:
 - **Tipo de ocupação** (comercial, industrial, residencial)
 - **Grau de risco** da atividade
 
-## Consultoria WI-Fire
+## Consultoria WI-FIRE
 
-Não sabe se precisa de PPCI ou RPCI? A WI-Fire faz a análise da sua edificação e indica a melhor solução. Entre em contato para uma consultoria personalizada.`,
+Não sabe se precisa de PPCI ou RPCI? A WI-FIRE faz a análise da sua edificação e indica a melhor solução. Entre em contato para uma consultoria personalizada.`,
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=500&fit=crop",
     imageAlt: "Plantas e projetos de engenharia contra incêndio sobre mesa",
     date: "2025-11-05",
@@ -269,9 +269,9 @@ Define requisitos para projeto, instalação e manutenção de sistemas de detec
 - **Multas e interdições**
 - **Responsabilidade legal** em caso de sinistro
 
-## WI-Fire: projetos em conformidade
+## WI-FIRE: projetos em conformidade
 
-Todos os projetos da WI-Fire são elaborados em total conformidade com as normas ABNT vigentes. Garantimos que sua edificação atenda a todos os requisitos técnicos e legais.`,
+Todos os projetos da WI-FIRE são elaborados em total conformidade com as normas ABNT vigentes. Garantimos que sua edificação atenda a todos os requisitos técnicos e legais.`,
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
     imageAlt: "Profissional analisando documentação e normas técnicas de engenharia",
     date: "2025-10-15",
@@ -326,9 +326,9 @@ A sinalização de emergência é obrigatória em:
 - Teste da **capacidade fotoluminescente**
 - Verificação de **desobstrução** das rotas sinalizadas
 
-## Sinalização correta com a WI-Fire
+## Sinalização correta com a WI-FIRE
 
-A WI-Fire projeta e acompanha a instalação de toda a sinalização de emergência conforme as normas ABNT. Garanta a segurança dos ocupantes da sua edificação.`,
+A WI-FIRE projeta e acompanha a instalação de toda a sinalização de emergência conforme as normas ABNT. Garanta a segurança dos ocupantes da sua edificação.`,
     image: sinalizacaoEmergencia,
     imageAlt: "Placa de sinalização de saída de emergência instalada no teto de estabelecimento comercial",
     date: "2025-09-20",
@@ -394,9 +394,9 @@ O dimensionamento dos extintores segue a **NBR 12693** e considera:
 - **Quantidade insuficiente** para a área
 - **Localização inadequada** — obstruídos ou em locais de difícil acesso
 
-## Assessoria WI-Fire
+## Assessoria WI-FIRE
 
-A WI-Fire realiza o dimensionamento correto dos extintores para sua edificação, garantindo conformidade com a NBR 12693 e aprovação junto ao Corpo de Bombeiros.`,
+A WI-FIRE realiza o dimensionamento correto dos extintores para sua edificação, garantindo conformidade com a NBR 12693 e aprovação junto ao Corpo de Bombeiros.`,
     image: escolherExtintor,
     imageAlt: "Extintor de incêndio instalado em pilar de estabelecimento comercial",
     date: "2025-08-18",
@@ -446,9 +446,9 @@ A manutenção periódica é essencial e inclui:
 - **Teste anual** de vazão e pressão
 - **Revalidação** das mangueiras (teste hidrostático a cada 5 anos)
 
-## Projeto e execução com a WI-Fire
+## Projeto e execução com a WI-FIRE
 
-A WI-Fire projeta e acompanha a instalação de sistemas de hidrantes em total conformidade com a NBR 13714, garantindo o funcionamento adequado e aprovação pelo Corpo de Bombeiros.`,
+A WI-FIRE projeta e acompanha a instalação de sistemas de hidrantes em total conformidade com a NBR 13714, garantindo o funcionamento adequado e aprovação pelo Corpo de Bombeiros.`,
     image: hidrantesPrediais,
     imageAlt: "Caixa de hidrante predial com mangueiras de incêndio enroladas",
     date: "2025-07-25",

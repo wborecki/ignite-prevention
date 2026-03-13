@@ -60,7 +60,7 @@ const projects = [
     image: projectGalpao,
     title: "Galpão Industrial",
     location: "Itajaí - SC",
-    alt: "Galpão industrial regularizado pela WI-Fire em Itajaí SC",
+    alt: "Galpão industrial regularizado pela WI-FIRE em Itajaí SC",
   },
   {
     image: projectAlmabe,
@@ -92,8 +92,8 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="WI-Fire | Engenharia Contra Incêndio - PPCI, AVCB em Itajaí SC"
-        description="WI-Fire: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Itajaí, Balneário Camboriú e região de SC."
+         title="WI-FIRE | Engenharia Contra Incêndio - PPCI, AVCB em Itajaí SC"
+         description="WI-FIRE: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Itajaí, Balneário Camboriú e região de SC."
         keywords="engenharia contra incêndio Itajaí, PPCI Itajaí, AVCB Santa Catarina, projeto contra incêndio, segurança contra incêndio SC, habite-se Itajaí, inspeção extintores, regularização edificação bombeiros, PPCI Balneário Camboriú, AVCB Paraná, AVCB Rio Grande do Sul, engenharia incêndio região sul, regularização corpo de bombeiros, NBR 13714, NBR 12693, projeto preventivo incêndio comercial, projeto preventivo incêndio industrial"
         jsonLd={organizationSchema}
       />
@@ -234,7 +234,7 @@ const Index = () => {
               Edificações Regularizadas
             </h2>
             <p className="text-muted-foreground text-lg">
-              Projetos aprovados e edificações regularizadas pela WI-Fire
+              Projetos aprovados e edificações regularizadas pela WI-FIRE
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

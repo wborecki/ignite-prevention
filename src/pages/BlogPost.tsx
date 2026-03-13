@@ -89,9 +89,9 @@ const BlogPost = () => {
   return (
     <>
       <SEO
-        title={`${post.title} | Blog WI-Fire`}
-        description={post.excerpt}
-        keywords={`${post.title}, engenharia contra incêndio, segurança contra incêndio, WI-Fire`}
+         title={`${post.title} | Blog WI-FIRE`}
+         description={post.excerpt}
+         keywords={`${post.title}, engenharia contra incêndio, segurança contra incêndio, WI-FIRE`}
         ogType="article"
         ogImage={post.image}
         jsonLd={{
@@ -140,7 +140,7 @@ const BlogPost = () => {
               Precisa de ajuda com seu projeto?
             </h3>
             <p className="text-muted-foreground text-sm mb-5">
-              Entre em contato com a WI-Fire e solicite um orçamento.
+              Entre em contato com a WI-FIRE e solicite um orçamento.
             </p>
             <a
               href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."

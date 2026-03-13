@@ -45,9 +45,9 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title="Contato - WI-Fire Engenharia Contra Incêndio Itajaí"
-        description="Entre em contato com a WI-Fire para solicitar orçamento de PPCI, AVCB, inspeções e regularizações. Atendemos Itajaí, Balneário Camboriú e toda Santa Catarina."
-        keywords="contato WI-Fire, orçamento PPCI, orçamento AVCB, engenharia contra incêndio contato, telefone WI-Fire Itajaí, visita técnica incêndio, orçamento habite-se, orçamento inspeção extintores, engenheiro incêndio Balneário Camboriú, regularização bombeiros SC PR RS"
+         title="Contato - WI-FIRE Engenharia Contra Incêndio Itajaí"
+         description="Entre em contato com a WI-FIRE para solicitar orçamento de PPCI, AVCB, inspeções e regularizações. Atendemos Itajaí, Balneário Camboriú e toda Santa Catarina."
+        keywords="contato WI-FIRE, orçamento PPCI, orçamento AVCB, engenharia contra incêndio contato, telefone WI-FIRE Itajaí, visita técnica incêndio, orçamento habite-se, orçamento inspeção extintores, engenheiro incêndio Balneário Camboriú, regularização bombeiros SC PR RS"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "https://wifire.com.br/" },
           { name: "Contato", url: "https://wifire.com.br/contato" },
@@ -59,7 +59,7 @@ const Contact = () => {
             Contato
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-2xl">
-            Fale com a WI-Fire. Estamos prontos para atender você.
+            Fale com a WI-FIRE. Estamos prontos para atender você.
           </p>
         </div>
       </section>
@@ -145,7 +145,7 @@ const Contact = () => {
               {/* Mapa Google Maps */}
               <div className="rounded-lg overflow-hidden border border-border h-64">
                 <iframe
-                  title="Localização WI-Fire Engenharia"
+                  title="Localização WI-FIRE Engenharia"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.0!2d-48.6655!3d-26.9078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzI4LjEiUyA0OMKwMzknNTUuOCJX!5e0!3m2!1spt-BR!2sbr!4v1709000000000"
                   width="100%"
                   height="100%"

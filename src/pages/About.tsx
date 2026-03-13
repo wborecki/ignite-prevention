@@ -30,9 +30,9 @@ const About = () => {
   return (
     <>
       <SEO
-        title="Sobre a WI-Fire - Engenharia Contra Incêndio em Itajaí SC"
-        description="Conheça a WI-Fire: empresa de engenharia especializada em prevenção e combate a incêndio em Itajaí e região. Equipe técnica qualificada e comprometida com a segurança."
-        keywords="sobre WI-Fire, empresa engenharia contra incêndio, prevenção incêndio Itajaí, equipe técnica bombeiros, engenheiro contra incêndio Santa Catarina, engenheiro segurança incêndio CREA SC, atuação Paraná Rio Grande do Sul, NBR 13714 hidrantes, NBR 12693 extintores, ABNT NBR 9077 saídas emergência, regularização edificações comerciais industriais, construtoras incorporadoras incêndio"
+         title="Sobre a WI-FIRE - Engenharia Contra Incêndio em Itajaí SC"
+         description="Conheça a WI-FIRE: empresa de engenharia especializada em prevenção e combate a incêndio em Itajaí e região. Equipe técnica qualificada e comprometida com a segurança."
+        keywords="sobre WI-FIRE, empresa engenharia contra incêndio, prevenção incêndio Itajaí, equipe técnica bombeiros, engenheiro contra incêndio Santa Catarina, engenheiro segurança incêndio CREA SC, atuação Paraná Rio Grande do Sul, NBR 13714 hidrantes, NBR 12693 extintores, ABNT NBR 9077 saídas emergência, regularização edificações comerciais industriais, construtoras incorporadoras incêndio"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "https://wifire.com.br/" },
           { name: "Sobre", url: "https://wifire.com.br/sobre" },
@@ -78,7 +78,7 @@ const About = () => {
                   CREA/SC — Engenheiro de Segurança Contra Incêndio
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Responsável técnico por todos os projetos da WI-Fire, com experiência consolidada
+                  Responsável técnico por todos os projetos da WI-FIRE, com experiência consolidada
                   em regularização e segurança contra incêndio na Região Sul do Brasil.
                 </p>
               </div>
@@ -100,7 +100,7 @@ const About = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Por que a WI-Fire?
+              Por que a WI-FIRE?
             </h2>
             <p className="text-muted-foreground text-lg">
               Diferenciais que nos tornam a escolha certa para a segurança da sua edificação

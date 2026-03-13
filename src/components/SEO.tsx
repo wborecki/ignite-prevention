@@ -13,7 +13,7 @@ interface SEOProps {
 
 const SITE_URL = "https://wifire.com.br";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
-const SITE_NAME = "WI-Fire Engenharia Contra Incêndio";
+const SITE_NAME = "WI-FIRE Engenharia Contra Incêndio";
 
 const SEO = ({
   title,
@@ -25,7 +25,7 @@ const SEO = ({
   jsonLd,
 }: SEOProps) => {
   const location = useLocation();
-  const fullTitle = title.includes("WI-Fire") ? title : `${title} | WI-Fire Engenharia Contra Incêndio`;
+  const fullTitle = title.includes("WI-FIRE") ? title : `${title} | WI-FIRE Engenharia Contra Incêndio`;
   const canonicalUrl = canonical || `${SITE_URL}${location.pathname}`;
   const image = ogImage || DEFAULT_IMAGE;
 
@@ -102,11 +102,11 @@ export default SEO;
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "WI-Fire Engenharia Contra Incêndio",
+   "name": "WI-FIRE Engenharia Contra Incêndio",
   "description": "Empresa especializada em engenharia contra incêndio: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas. Atuação em Santa Catarina, Paraná e Rio Grande do Sul.",
   "url": "https://wifire.com.br",
   "telephone": "+5547997689880",
-  "email": "wifireengenharia@gmail.com",
+  "email": "contato@wifire-engenharia.com.br",
   "image": "https://wifire.com.br/og-image.jpg",
   "priceRange": "$$",
   "address": {
@@ -170,12 +170,12 @@ export const createBlogPostSchema = (post: {
   "dateModified": post.date,
   "author": {
     "@type": "Organization",
-    "name": "WI-Fire Engenharia Contra Incêndio",
+     "name": "WI-FIRE Engenharia Contra Incêndio",
     "url": "https://wifire.com.br"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "WI-Fire Engenharia Contra Incêndio",
+    "name": "WI-FIRE Engenharia Contra Incêndio",
     "url": "https://wifire.com.br"
   },
   "mainEntityOfPage": {
