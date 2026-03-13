@@ -270,7 +270,7 @@ const Index = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-heading font-bold">
-              Sobre a WI-Fire
+              Sobre a <span className="text-primary uppercase">WI-FIRE</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
               Somos uma empresa de engenharia especializada em prevenção e combate a incêndio.
