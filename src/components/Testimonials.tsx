@@ -29,6 +29,14 @@ const testimonials = [
     name: "Felipe Mater Ferreira",
     text: "Excelente atendimento! 👏🏻",
   },
+  {
+    name: "Anderson Siqueira",
+    text: "Fizeram todos os procedimentos necessários para minha empresa com rapidez e profissionalismo! Recomendo com certeza 👍",
+  },
+  {
+    name: "Claudia Silva",
+    text: "Empresa muito competente, ágil e prestativa. Indico muito!",
+  },
 ];
 
 const Testimonials = () => {
@@ -45,7 +53,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="flex animate-scroll-x gap-6 w-max">
+        <div className="flex animate-scroll-x-slow gap-6 w-max">
           {[...testimonials, ...testimonials].map((t, i) => (
             <div
               key={`${t.name}-${i}`}
@@ -53,7 +61,7 @@ const Testimonials = () => {
             >
               <div className="flex gap-0.5">
                 {Array.from({ length: 5 }).map((_, j) => (
-                  <Star key={j} size={14} className="fill-primary text-primary" />
+                  <Star key={j} size={14} className="fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
