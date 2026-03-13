@@ -59,7 +59,7 @@ const Contact = () => {
             Contato
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-2xl">
-            Fale com a WI-Fire. Estamos prontos para atender você.
+            Fale com a WI-FIRE. Estamos prontos para atender você.
           </p>
         </div>
       </section>
