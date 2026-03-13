@@ -110,9 +110,9 @@ O AVCB possui prazo de validade que varia conforme o tipo de ocupação:
 - **Industrial**: 3 anos
 - **Reunião de público**: 2 anos
 
-## A WI-Fire cuida de tudo
+## A WI-FIRE cuida de tudo
 
-Da elaboração do PPCI até a obtenção do AVCB, a WI-Fire acompanha todo o processo para que você não tenha preocupações. Entre em contato e solicite seu orçamento.`,
+Da elaboração do PPCI até a obtenção do AVCB, a WI-FIRE acompanha todo o processo para que você não tenha preocupações. Entre em contato e solicite seu orçamento.`,
     image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
     imageAlt: "Documentação e processo de vistoria do Corpo de Bombeiros",
     date: "2026-01-20",
