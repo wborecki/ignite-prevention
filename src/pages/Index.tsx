@@ -60,7 +60,7 @@ const projects = [
     image: projectGalpao,
     title: "Galpão Industrial",
     location: "Itajaí - SC",
-    alt: "Galpão industrial regularizado pela WI-Fire em Itajaí SC",
+    alt: "Galpão industrial regularizado pela WI-FIRE em Itajaí SC",
   },
   {
     image: projectAlmabe,

@@ -94,7 +94,7 @@ const Solutions = () => {
             Nossas Soluções
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-2xl">
-            Conheça todos os serviços que a WI-Fire oferece para garantir a segurança
+            Conheça todos os serviços que a WI-FIRE oferece para garantir a segurança
             contra incêndio da sua edificação.
           </p>
         </div>

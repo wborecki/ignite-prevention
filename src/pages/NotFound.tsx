@@ -12,7 +12,7 @@ const NotFound = () => {
   return (
     <>
       <SEO
-        title="Página não encontrada | WI-Fire"
+        title="Página não encontrada | WI-FIRE"
         description="A página que você procura não existe ou foi movida."
       />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
