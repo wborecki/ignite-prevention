@@ -22,7 +22,7 @@ const sectors = [
 const norms = [
   { code: "NBR 13714", name: "Sistemas de Hidrantes", desc: "Requisitos para projeto e instalação de sistemas de hidrantes e mangotinhos." },
   { code: "NBR 12693", name: "Extintores de Incêndio", desc: "Critérios de seleção, dimensionamento e manutenção de extintores." },
-  { code: "ITC BMSC", name: "Instruções Técnicas", desc: "Normativas do Corpo de Bombeiros Militar de Santa Catarina." },
+  { code: "ITs CBM", name: "Instruções Técnicas", desc: "Normativas do Corpo de Bombeiros Militar." },
   { code: "NBR 9077", name: "Saídas de Emergência", desc: "Dimensionamento de portas, corredores, escadas e rampas de evacuação." },
 ];
 
