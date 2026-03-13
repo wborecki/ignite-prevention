@@ -292,6 +292,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FAQ />
     </>
   );
 };
