@@ -13,7 +13,7 @@ interface SEOProps {
 
 const SITE_URL = "https://wifire.com.br";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
-const SITE_NAME = "WI-Fire Engenharia Contra Incêndio";
+const SITE_NAME = "WI-FIRE Engenharia Contra Incêndio";
 
 const SEO = ({
   title,
