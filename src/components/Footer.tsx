@@ -4,7 +4,7 @@ import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-background/80">
+    <footer className="text-white/80" style={{ backgroundColor: 'hsl(210, 60%, 20%)' }}>
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
