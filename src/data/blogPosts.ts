@@ -1,5 +1,6 @@
 import inspecaoExtintores from "@/assets/blog/inspecao-extintores.jpeg";
 import sinalizacaoEmergencia from "@/assets/blog/sinalizacao-emergencia.jpeg";
+import escolherExtintor from "@/assets/blog/escolher-extintor.jpeg";
 
 export interface BlogPost {
   slug: string;
@@ -395,8 +396,8 @@ O dimensionamento dos extintores segue a **NBR 12693** e considera:
 ## Assessoria WI-Fire
 
 A WI-Fire realiza o dimensionamento correto dos extintores para sua edificação, garantindo conformidade com a NBR 12693 e aprovação junto ao Corpo de Bombeiros.`,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=500&fit=crop",
-    imageAlt: "Diferentes tipos de extintores de incêndio enfileirados",
+    image: escolherExtintor,
+    imageAlt: "Extintor de incêndio instalado em pilar de estabelecimento comercial",
     date: "2025-08-18",
     readTime: "7 min",
   },
