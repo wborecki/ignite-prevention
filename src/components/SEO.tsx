@@ -24,6 +24,7 @@ const SEO = ({
   ogType = "website",
   ogImage,
   jsonLd,
+  additionalJsonLd,
 }: SEOProps) => {
   const location = useLocation();
   const fullTitle = title.includes("WI-FIRE") ? title : `${title} | WI-FIRE Engenharia Contra Incêndio`;
