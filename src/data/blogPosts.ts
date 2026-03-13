@@ -168,7 +168,7 @@ Ensaio de pressão no cilindro para verificar integridade estrutural.
 - **Responsabilidade civil e criminal** em caso de sinistro
 - **Perda de cobertura** de seguro
 
-## Conte com a WI-Fire
+## Conte com a WI-FIRE
 
 Realizamos inspeções preventivas completas em todos os equipamentos contra incêndio do seu estabelecimento, garantindo conformidade e segurança. Agende uma visita técnica.`,
     image: inspecaoExtintores,
