@@ -43,7 +43,7 @@ const About = () => {
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">
-            Sobre a <span className="text-primary uppercase">WI-FIRE</span>
+            Sobre a WI-FIRE
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-2xl">
             Proteger o patrimônio e, acima de tudo, a vida, através da engenharia de precisão.
