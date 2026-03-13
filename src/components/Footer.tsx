@@ -70,6 +70,9 @@ const Footer = () => {
               <a href="https://www.instagram.com/wifireengenharia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
+              <a href="https://www.facebook.com/wifireengenharia/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:text-white transition-colors">
+                <Facebook size={20} />
+              </a>
               <a href="https://br.linkedin.com/company/wi-fire-engenharia-contra-inc%C3%AAndio" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
