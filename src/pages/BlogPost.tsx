@@ -128,7 +128,7 @@ const BlogPost = () => {
           <img
             src={post.image}
             alt={post.imageAlt || post.title}
-            className="w-full max-w-3xl mx-auto h-80 object-cover rounded-lg mb-10"
+            className="w-full max-w-3xl mx-auto h-80 object-cover object-bottom rounded-lg mb-10"
           />
           <article className="max-w-3xl mx-auto prose-sm">
             {renderContent(post.content)}
