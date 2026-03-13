@@ -1,6 +1,7 @@
 import inspecaoExtintores from "@/assets/blog/inspecao-extintores.jpeg";
 import sinalizacaoEmergencia from "@/assets/blog/sinalizacao-emergencia.jpeg";
 import escolherExtintor from "@/assets/blog/escolher-extintor.jpeg";
+import hidrantesPrediais from "@/assets/blog/hidrantes-prediais.jpeg";
 
 export interface BlogPost {
   slug: string;
