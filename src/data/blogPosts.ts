@@ -168,8 +168,8 @@ Ensaio de pressão no cilindro para verificar integridade estrutural.
 ## Conte com a WI-Fire
 
 Realizamos inspeções preventivas completas em todos os equipamentos contra incêndio do seu estabelecimento, garantindo conformidade e segurança. Agende uma visita técnica.`,
-    image: "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?w=800&h=500&fit=crop",
-    imageAlt: "Extintor de incêndio vermelho instalado na parede de um edifício",
+    image: inspecaoExtintores,
+    imageAlt: "Engenheiro realizando inspeção de extintor de incêndio com prancheta",
     date: "2025-12-10",
     readTime: "4 min",
   },
