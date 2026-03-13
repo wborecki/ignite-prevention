@@ -52,9 +52,9 @@ O projeto define os sistemas de proteção necessários de acordo com a ocupaç�
 5. **Execução das instalações** conforme projeto aprovado
 6. **Vistoria final** para emissão do AVCB
 
-## Por que a WI-Fire?
+## Por que a WI-FIRE?
 
-Na WI-Fire, nossos engenheiros possuem ampla experiência na elaboração de PPCIs para todos os tipos de edificação. Cuidamos de todo o processo, desde o levantamento até a aprovação final, garantindo agilidade e conformidade com as normas vigentes.
+Na WI-FIRE, nossos engenheiros possuem ampla experiência na elaboração de PPCIs para todos os tipos de edificação. Cuidamos de todo o processo, desde o levantamento até a aprovação final, garantindo agilidade e conformidade com as normas vigentes.
 
 **Solicite seu orçamento** e regularize sua edificação com quem entende do assunto.`,
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=500&fit=crop",
