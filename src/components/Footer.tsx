@@ -4,25 +4,25 @@ import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-background/80">
+    <footer className="text-white/80" style={{ backgroundColor: 'hsl(210, 60%, 20%)' }}>
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex flex-col items-center gap-1">
               <img src={logoIcon} alt="WI-Fire" className="h-10 w-auto" />
-              <span className="text-2xl font-heading font-extrabold text-primary-foreground">
+              <span className="text-2xl font-heading font-extrabold text-white">
                 WI-FIRE
               </span>
             </div>
-            <p className="text-sm leading-relaxed text-background/60">
+            <p className="text-sm leading-relaxed text-white/60">
               Engenharia Contra Incêndio. Soluções completas para a segurança do seu patrimônio.
             </p>
           </div>
 
           {/* Links */}
           <div className="space-y-3">
-            <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider">
+            <h4 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">
               Navegação
             </h4>
             {[
@@ -35,7 +35,7 @@ const Footer = () => {
               <Link
                 key={link.to}
                 to={link.to}
-                className="block text-sm hover:text-primary-foreground transition-colors"
+                className="block text-sm hover:text-white transition-colors"
               >
                 {link.label}
               </Link>
@@ -44,7 +44,7 @@ const Footer = () => {
 
           {/* Contato */}
           <div className="space-y-3">
-            <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider">
+            <h4 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">
               Contato
             </h4>
             <div className="flex items-center gap-2 text-sm">
@@ -63,24 +63,24 @@ const Footer = () => {
 
           {/* Redes sociais */}
           <div className="space-y-3">
-            <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider">
+            <h4 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">
               Redes Sociais
             </h4>
             <div className="flex gap-4">
-              <a href="#" aria-label="Instagram" className="hover:text-primary-foreground transition-colors">
+              <a href="#" aria-label="Instagram" className="hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" aria-label="Facebook" className="hover:text-primary-foreground transition-colors">
+              <a href="#" aria-label="Facebook" className="hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-primary-foreground transition-colors">
+              <a href="#" aria-label="LinkedIn" className="hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-background/10 mt-10 pt-6 text-center text-xs text-background/40">
+        <div className="border-t border-white/10 mt-10 pt-6 text-center text-xs text-white/40">
           © {new Date().getFullYear()} WI-Fire Engenharia Contra Incêndio. Todos os direitos reservados.
         </div>
       </div>
