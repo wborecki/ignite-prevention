@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
             <div className="flex items-start gap-2 text-sm">
               <MapPin size={14} className="mt-0.5 shrink-0" />
-              <span>R. João Américo Watzko, 551 - São Vicente, Itajaí - SC</span>
+              <span>R. Gervasio Regis Jr, Lote Q2 - São Vicente, Itajaí - SC</span>
             </div>
           </div>
 

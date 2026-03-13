@@ -111,7 +111,7 @@ export const organizationSchema = {
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "R. João Américo Watzko, 551 - São Vicente",
+    "streetAddress": "R. Gervasio Regis Jr, Lote Q2 - São Vicente",
     "addressLocality": "Itajaí",
     "addressRegion": "SC",
     "postalCode": "88309-600",
