@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-background/10 mt-10 pt-6 text-center text-xs text-background/40">
+        <div className="border-t border-white/10 mt-10 pt-6 text-center text-xs text-white/40">
           © {new Date().getFullYear()} WI-Fire Engenharia Contra Incêndio. Todos os direitos reservados.
         </div>
       </div>
