@@ -140,7 +140,7 @@ const BlogPost = () => {
               Precisa de ajuda com seu projeto?
             </h3>
             <p className="text-muted-foreground text-sm mb-5">
-              Entre em contato com a WI-Fire e solicite um orçamento.
+              Entre em contato com a WI-FIRE e solicite um orçamento.
             </p>
             <a
               href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."

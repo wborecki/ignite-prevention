@@ -47,7 +47,7 @@ const Contact = () => {
       <SEO
          title="Contato - WI-FIRE Engenharia Contra Incêndio Itajaí"
          description="Entre em contato com a WI-FIRE para solicitar orçamento de PPCI, AVCB, inspeções e regularizações. Atendemos Itajaí, Balneário Camboriú e toda Santa Catarina."
-        keywords="contato WI-Fire, orçamento PPCI, orçamento AVCB, engenharia contra incêndio contato, telefone WI-Fire Itajaí, visita técnica incêndio, orçamento habite-se, orçamento inspeção extintores, engenheiro incêndio Balneário Camboriú, regularização bombeiros SC PR RS"
+        keywords="contato WI-FIRE, orçamento PPCI, orçamento AVCB, engenharia contra incêndio contato, telefone WI-FIRE Itajaí, visita técnica incêndio, orçamento habite-se, orçamento inspeção extintores, engenheiro incêndio Balneário Camboriú, regularização bombeiros SC PR RS"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "https://wifire.com.br/" },
           { name: "Contato", url: "https://wifire.com.br/contato" },
