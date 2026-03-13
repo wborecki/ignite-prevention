@@ -1,25 +1,19 @@
-import logoConstrutora from "@/assets/clients/construtora-sul.png";
-import logoAtlantico from "@/assets/clients/grupo-atlantico.png";
-import logoMarinas from "@/assets/clients/hotel-marinas.png";
-import logoFarma from "@/assets/clients/rede-farma.png";
-import logoLogistica from "@/assets/clients/logistica-express.png";
-import logoShopping from "@/assets/clients/shopping-vale.png";
-import logoHospital from "@/assets/clients/hospital-sao-lucas.png";
-import logoTech from "@/assets/clients/tech-park.png";
-import logoBrava from "@/assets/clients/industria-brava.png";
-import logoPorto from "@/assets/clients/porto-real.png";
+import logoMagalu from "@/assets/clients/magazine-luiza.png";
+import logoRenner from "@/assets/clients/renner.png";
+import logoShopee from "@/assets/clients/shopee.png";
+import logoCamicado from "@/assets/clients/camicado.png";
+import logoFise from "@/assets/clients/fise-fechoplast.png";
+import logoSesc from "@/assets/clients/sesc.png";
+import logoIntegral from "@/assets/clients/colegio-integral.png";
 
 const clients = [
-  { name: "Construtora Sul", logo: logoConstrutora },
-  { name: "Grupo Atlântico", logo: logoAtlantico },
-  { name: "Hotel Marinas", logo: logoMarinas },
-  { name: "Rede Farma+", logo: logoFarma },
-  { name: "Logística Express", logo: logoLogistica },
-  { name: "Shopping Vale", logo: logoShopping },
-  { name: "Hospital São Lucas", logo: logoHospital },
-  { name: "Tech Park", logo: logoTech },
-  { name: "Indústria Brava", logo: logoBrava },
-  { name: "Porto Real", logo: logoPorto },
+  { name: "Magazine Luiza", logo: logoMagalu },
+  { name: "Renner", logo: logoRenner },
+  { name: "Shopee", logo: logoShopee },
+  { name: "Camicado", logo: logoCamicado },
+  { name: "Fise Fechoplast", logo: logoFise },
+  { name: "SESC", logo: logoSesc },
+  { name: "Colégio Integral", logo: logoIntegral },
 ];
 
 const ClientsCarousel = () => {
