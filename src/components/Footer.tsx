@@ -70,7 +70,7 @@ const Footer = () => {
               <a href="#" aria-label="Instagram" className="hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" aria-label="Facebook" className="hover:text-primary-foreground transition-colors">
+              <a href="#" aria-label="Facebook" className="hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" aria-label="LinkedIn" className="hover:text-primary-foreground transition-colors">
