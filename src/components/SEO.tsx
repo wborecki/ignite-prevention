@@ -102,7 +102,7 @@ export default SEO;
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "WI-Fire Engenharia Contra Incêndio",
+   "name": "WI-FIRE Engenharia Contra Incêndio",
   "description": "Empresa especializada em engenharia contra incêndio: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas. Atuação em Santa Catarina, Paraná e Rio Grande do Sul.",
   "url": "https://wifire.com.br",
   "telephone": "+5547997689880",
