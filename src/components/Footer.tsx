@@ -67,7 +67,7 @@ const Footer = () => {
               Redes Sociais
             </h4>
             <div className="flex gap-4">
-              <a href="#" aria-label="Instagram" className="hover:text-primary-foreground transition-colors">
+              <a href="#" aria-label="Instagram" className="hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="#" aria-label="Facebook" className="hover:text-primary-foreground transition-colors">
