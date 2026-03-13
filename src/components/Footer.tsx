@@ -22,7 +22,7 @@ const Footer = () => {
 
           {/* Links */}
           <div className="space-y-3">
-            <h4 className="font-heading font-semibold text-primary-foreground text-sm uppercase tracking-wider">
+            <h4 className="font-heading font-semibold text-white text-sm uppercase tracking-wider">
               Navegação
             </h4>
             {[
