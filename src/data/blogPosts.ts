@@ -1,3 +1,5 @@
+import inspecaoExtintores from "@/assets/blog/inspecao-extintores.jpeg";
+
 export interface BlogPost {
   slug: string;
   title: string;
