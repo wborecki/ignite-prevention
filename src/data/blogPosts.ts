@@ -1,6 +1,7 @@
 import inspecaoExtintores from "@/assets/blog/inspecao-extintores.jpeg";
 import sinalizacaoEmergencia from "@/assets/blog/sinalizacao-emergencia.jpeg";
 import escolherExtintor from "@/assets/blog/escolher-extintor.jpeg";
+import hidrantesPrediais from "@/assets/blog/hidrantes-prediais.jpeg";
 
 export interface BlogPost {
   slug: string;
@@ -448,8 +449,8 @@ A manutenção periódica é essencial e inclui:
 ## Projeto e execução com a WI-Fire
 
 A WI-Fire projeta e acompanha a instalação de sistemas de hidrantes em total conformidade com a NBR 13714, garantindo o funcionamento adequado e aprovação pelo Corpo de Bombeiros.`,
-    image: "https://images.unsplash.com/photo-1599707367812-042db8603456?w=800&h=500&fit=crop",
-    imageAlt: "Hidrante de incêndio vermelho com mangueira em edifício comercial",
+    image: hidrantesPrediais,
+    imageAlt: "Caixa de hidrante predial com mangueiras de incêndio enroladas",
     date: "2025-07-25",
     readTime: "6 min",
   },
