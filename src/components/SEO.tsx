@@ -175,7 +175,7 @@ export const createBlogPostSchema = (post: {
   },
   "publisher": {
     "@type": "Organization",
-    "name": "WI-Fire Engenharia Contra Incêndio",
+    "name": "WI-FIRE Engenharia Contra Incêndio",
     "url": "https://wifire.com.br"
   },
   "mainEntityOfPage": {
