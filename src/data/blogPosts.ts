@@ -1,4 +1,5 @@
 import inspecaoExtintores from "@/assets/blog/inspecao-extintores.jpeg";
+import sinalizacaoEmergencia from "@/assets/blog/sinalizacao-emergencia.jpeg";
 
 export interface BlogPost {
   slug: string;
@@ -326,8 +327,8 @@ A sinalização de emergência é obrigatória em:
 ## Sinalização correta com a WI-Fire
 
 A WI-Fire projeta e acompanha a instalação de toda a sinalização de emergência conforme as normas ABNT. Garanta a segurança dos ocupantes da sua edificação.`,
-    image: "https://images.unsplash.com/photo-1555529771-7888783a18d3?w=800&h=500&fit=crop",
-    imageAlt: "Placa de saída de emergência iluminada em corredor de edifício",
+    image: sinalizacaoEmergencia,
+    imageAlt: "Placa de sinalização de saída de emergência instalada no teto de estabelecimento comercial",
     date: "2025-09-20",
     readTime: "5 min",
   },
