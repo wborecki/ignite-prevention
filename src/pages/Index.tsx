@@ -110,8 +110,8 @@ const Index = () => {
         <div className="relative container py-24 md:py-36">
           <div className="max-w-2xl space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight">
-              Engenharia Contra Incêndio que{" "}
-              <span className="text-primary">protege</span> seu patrimônio
+               Engenharia Contra Incêndio que{" "}
+               <span className="text-primary">protege</span> seu patrimônio
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/70 leading-relaxed">
               Soluções completas em PPCI, AVCB, inspeções e regularizações.
@@ -137,7 +137,7 @@ const Index = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Nossos Serviços
+              Nossos <span className="text-primary">Serviços</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Oferecemos soluções que fazem a diferença na segurança contra incêndio
@@ -231,7 +231,7 @@ const Index = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Edificações Regularizadas
+              Edificações <span className="text-primary">Regularizadas</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Projetos aprovados e edificações regularizadas pela WI-FIRE

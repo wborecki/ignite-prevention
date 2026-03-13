@@ -57,14 +57,14 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-3">
-                <h2 className="text-3xl font-heading font-bold">Nossa Missão</h2>
+                <h2 className="text-3xl font-heading font-bold">Nossa <span className="text-primary">Missão</span></h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Proteger o patrimônio e, acima de tudo, a vida, através da engenharia de precisão
                   e soluções inovadoras em segurança contra incêndio no Sul do Brasil.
                 </p>
               </div>
               <div className="space-y-3">
-                <h2 className="text-3xl font-heading font-bold">Nossa Visão</h2>
+                <h2 className="text-3xl font-heading font-bold">Nossa <span className="text-primary">Visão</span></h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Ser referência em regularização e segurança contra incêndio na Região Sul do Brasil,
                   reconhecida pela excelência técnica, agilidade e compromisso com a vida.
@@ -100,7 +100,7 @@ const About = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Por que a WI-FIRE?
+              Por que a <span className="text-primary">WI-FIRE</span>?
             </h2>
             <p className="text-muted-foreground text-lg">
               Diferenciais que nos tornam a escolha certa para a segurança da sua edificação
@@ -128,7 +128,7 @@ const About = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Setores e Área de Atuação
+              Setores e Área de <span className="text-primary">Atuação</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Atendemos os mais diversos segmentos em toda a Região Sul do Brasil
@@ -163,7 +163,7 @@ const About = () => {
         <div className="container">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Respaldo Normativo
+              Respaldo <span className="text-primary">Normativo</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Projetos desenvolvidos com rigor técnico e documentação completa até a emissão do AVCB
