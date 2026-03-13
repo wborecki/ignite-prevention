@@ -64,7 +64,7 @@ const About = () => {
                 </p>
               </div>
               <div className="space-y-3">
-                <h2 className="text-3xl font-heading font-bold">Nossa <span className="text-primary">Visão</span></h2>
+                <h2 className="text-3xl font-heading font-bold">Nossa Visão</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Ser referência em regularização e segurança contra incêndio na Região Sul do Brasil,
                   reconhecida pela excelência técnica, agilidade e compromisso com a vida.
