@@ -25,7 +25,7 @@ const SEO = ({
   jsonLd,
 }: SEOProps) => {
   const location = useLocation();
-  const fullTitle = title.includes("WI-Fire") ? title : `${title} | WI-Fire Engenharia Contra Incêndio`;
+  const fullTitle = title.includes("WI-FIRE") ? title : `${title} | WI-FIRE Engenharia Contra Incêndio`;
   const canonicalUrl = canonical || `${SITE_URL}${location.pathname}`;
   const image = ogImage || DEFAULT_IMAGE;
 
