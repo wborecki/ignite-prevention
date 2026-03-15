@@ -1,19 +1,17 @@
 import { Link } from "react-router-dom";
 import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin, Youtube } from "lucide-react";
-import logoIcon from "@/assets/logo-icon.png";
+import logoWifireBranco from "@/assets/logo-wifire-branco.webp";
+import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_ADDRESS } from "@/config/constants";
 
 const Footer = () => {
   return (
-    <footer className="text-white/80" style={{ backgroundColor: 'hsl(210, 60%, 20%)' }}>
+    <footer className="text-white/80 bg-[hsl(210,60%,20%)]">
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex flex-col items-center gap-1">
-              <img src={logoIcon} alt="WI-Fire" className="h-10 w-auto" />
-              <span className="text-2xl font-heading font-extrabold text-white">
-                WI-FIRE
-              </span>
+              <img src={logoWifireBranco} alt="WI-Fire Engenharia Contra Incêndio" className="h-24 w-auto" />
             </div>
             <p className="text-sm leading-relaxed text-white/60">
               Engenharia Contra Incêndio. Soluções completas para a segurança do seu patrimônio.
@@ -49,15 +47,15 @@ const Footer = () => {
             </h4>
             <div className="flex items-center gap-2 text-sm">
               <Phone size={14} />
-              <span>(47) 99768-9880</span>
+              <span>{CONTACT_PHONE}</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
               <Mail size={14} />
-              <span>contato@wifire-engenharia.com.br</span>
+              <span>{CONTACT_EMAIL}</span>
             </div>
             <div className="flex items-start gap-2 text-sm">
               <MapPin size={14} className="mt-0.5 shrink-0" />
-              <span>R. Gervasio Regis Jr, Lote Q2 - São Vicente, Itajaí - SC</span>
+              <span>{CONTACT_ADDRESS}</span>
             </div>
           </div>
 

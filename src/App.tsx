@@ -1,18 +1,21 @@
+import { lazy, Suspense } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import ErrorBoundary from "@/components/ErrorBoundary";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import Index from "./pages/Index";
-import Solutions from "./pages/Solutions";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
-import BlogPost from "./pages/BlogPost";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
+
+const Index = lazy(() => import("./pages/Index"));
+const Solutions = lazy(() => import("./pages/Solutions"));
+const About = lazy(() => import("./pages/About"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
 
@@ -23,17 +26,21 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
-        <main>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/solucoes" element={<Solutions />} />
-            <Route path="/sobre" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
-            <Route path="/contato" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
+        <ErrorBoundary>
+          <main>
+            <Suspense fallback={<div className="container py-20 text-center text-muted-foreground">Carregando...</div>}>
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/solucoes" element={<Solutions />} />
+                <Route path="/sobre" element={<About />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
+                <Route path="/contato" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </Suspense>
+          </main>
+        </ErrorBoundary>
         <Footer />
         <WhatsAppButton />
       </BrowserRouter>

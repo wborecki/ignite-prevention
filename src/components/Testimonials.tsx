@@ -41,7 +41,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-16 md:py-20 bg-background overflow-hidden">
+    <section className="py-16 md:py-20 bg-background overflow-hidden" aria-label="Depoimentos de clientes">
       <div className="container mb-10">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">

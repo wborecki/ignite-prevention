@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.webp";
 import SEO, { organizationSchema, faqSchema } from "@/components/SEO";
 import ClientsCarousel from "@/components/ClientsCarousel";
 import Testimonials from "@/components/Testimonials";
 import FAQ, { faqData } from "@/components/FAQ";
-import projectMagazine from "@/assets/projects/magazine-luiza.jpeg";
-import projectGalpao from "@/assets/projects/galpao-itajai.jpeg";
-import projectAlmabe from "@/assets/projects/almabe-bc.jpeg";
-import projectSantaBella from "@/assets/projects/santa-bella-itajai.jpeg";
-import projectQuality from "@/assets/projects/quality-itajai.jpeg";
-import projectIntegral from "@/assets/projects/integral-curso.jpeg";
+import projectMagazine from "@/assets/projects/magazine-luiza.webp";
+import projectGalpao from "@/assets/projects/galpao-itajai.webp";
+import projectAlmabe from "@/assets/projects/almabe-bc.webp";
+import projectSantaBella from "@/assets/projects/santa-bella-itajai.webp";
+import projectQuality from "@/assets/projects/quality-itajai.webp";
+import projectIntegral from "@/assets/projects/integral-curso.webp";
+import { WHATSAPP_URL } from "@/config/constants";
 
 const services = [
   {
@@ -121,7 +122,7 @@ const Index = () => {
               Segurança e conformidade para sua edificação.
             </p>
             <a
-              href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-8 py-3.5 rounded-md font-heading font-bold text-base hover:bg-primary-dark transition-colors"
@@ -219,7 +220,7 @@ const Index = () => {
             Fale com nossos engenheiros e receba um orçamento personalizado sem compromisso.
           </p>
           <a
-            href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary-foreground text-primary px-8 py-3.5 rounded-md font-heading font-bold text-base hover:bg-primary-foreground/90 transition-colors"

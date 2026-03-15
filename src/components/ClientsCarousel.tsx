@@ -1,24 +1,28 @@
-import logoMagalu from "@/assets/clients/magazine-luiza.png";
-import logoRenner from "@/assets/clients/renner.png";
-import logoShopee from "@/assets/clients/shopee.png";
-import logoCamicado from "@/assets/clients/camicado.png";
-import logoFise from "@/assets/clients/fise-fechoplast.png";
-import logoSesc from "@/assets/clients/sesc.png";
-import logoIntegral from "@/assets/clients/colegio-integral.png";
+import logoMagalu from "@/assets/clients/logo-magalu.webp";
+import logoRenner from "@/assets/clients/logo-renner.webp";
+import logoShopee from "@/assets/clients/logo-shopee.webp";
+import logoCamicado from "@/assets/clients/logo-camicado.webp";
+import logoFise from "@/assets/clients/logo-fise.webp";
+import logoFechoplast from "@/assets/clients/logo-fechoplast.webp";
+import logoSesc from "@/assets/clients/logo-sesc.webp";
+import logoIntegral from "@/assets/clients/logo-integral.webp";
+import logoCasaDaSolda from "@/assets/clients/logo-casa-da-solda.webp";
 
 const clients = [
   { name: "Magazine Luiza", logo: logoMagalu },
   { name: "Renner", logo: logoRenner },
   { name: "Shopee", logo: logoShopee },
   { name: "Camicado", logo: logoCamicado },
-  { name: "Fise Fechoplast", logo: logoFise },
+  { name: "Fise", logo: logoFise },
+  { name: "Fechoplast", logo: logoFechoplast },
   { name: "SESC", logo: logoSesc },
   { name: "Colégio Integral", logo: logoIntegral },
+  { name: "Casa da Solda", logo: logoCasaDaSolda },
 ];
 
 const ClientsCarousel = () => {
   return (
-    <section className="py-10 md:py-14 bg-background border-t border-border">
+    <section className="py-10 md:py-14 bg-background border-t border-border" aria-label="Carrossel de clientes">
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12">
           Clientes que Confiam na <span className="text-primary uppercase">WI-FIRE</span>

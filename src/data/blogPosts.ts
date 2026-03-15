@@ -1,7 +1,7 @@
-import inspecaoExtintores from "@/assets/blog/inspecao-extintores.jpeg";
-import sinalizacaoEmergencia from "@/assets/blog/sinalizacao-emergencia.jpeg";
-import escolherExtintor from "@/assets/blog/escolher-extintor.jpeg";
-import hidrantesPrediais from "@/assets/blog/hidrantes-prediais.jpeg";
+import inspecaoExtintores from "@/assets/blog/inspecao-extintores.webp";
+import sinalizacaoEmergencia from "@/assets/blog/sinalizacao-emergencia.webp";
+import escolherExtintor from "@/assets/blog/escolher-extintor.webp";
+import hidrantesPrediais from "@/assets/blog/hidrantes-prediais.webp";
 
 export interface BlogPost {
   slug: string;

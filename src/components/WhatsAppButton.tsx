@@ -1,7 +1,9 @@
+import { WHATSAPP_URL } from "@/config/constants";
+
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
+      href={WHATSAPP_URL}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-lg hover:shadow-xl hover:scale-110 transition-transform animate-bounce-subtle"

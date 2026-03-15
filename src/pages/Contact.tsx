@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { z } from "zod";
+import { WHATSAPP_PHONE, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_ADDRESS } from "@/config/constants";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Nome é obrigatório").max(100),
@@ -34,11 +35,11 @@ const Contact = () => {
     const text = encodeURIComponent(
       `Olá! Meu nome é ${result.data.name}.\nEmail: ${result.data.email}\nTelefone: ${result.data.phone}\nMensagem: ${result.data.message}`
     );
-    const link = document.createElement("a");
-    link.href = `https://wa.me/5547997689880?text=${text}`;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.click();
+    window.open(
+      `https://wa.me/${WHATSAPP_PHONE}?text=${text}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
     toast({ title: "Redirecionando para o WhatsApp..." });
   };
 
@@ -74,38 +75,54 @@ const Contact = () => {
               </h2>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
+                  <label htmlFor="contact-name" className="text-sm font-medium mb-1 block">Nome</label>
                   <Input
+                    id="contact-name"
                     placeholder="Seu nome"
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
+                    aria-invalid={!!errors.name}
+                    aria-describedby={errors.name ? "name-error" : undefined}
                   />
-                  {errors.name && <p className="text-destructive text-xs mt-1">{errors.name}</p>}
+                  {errors.name && <p id="name-error" className="text-destructive text-xs mt-1" role="alert">{errors.name}</p>}
                 </div>
                 <div>
+                  <label htmlFor="contact-email" className="text-sm font-medium mb-1 block">Email</label>
                   <Input
+                    id="contact-email"
                     type="email"
                     placeholder="Seu email"
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
+                    aria-invalid={!!errors.email}
+                    aria-describedby={errors.email ? "email-error" : undefined}
                   />
-                  {errors.email && <p className="text-destructive text-xs mt-1">{errors.email}</p>}
+                  {errors.email && <p id="email-error" className="text-destructive text-xs mt-1" role="alert">{errors.email}</p>}
                 </div>
                 <div>
+                  <label htmlFor="contact-phone" className="text-sm font-medium mb-1 block">Telefone</label>
                   <Input
+                    id="contact-phone"
                     placeholder="Seu telefone"
                     value={form.phone}
                     onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                    aria-invalid={!!errors.phone}
+                    aria-describedby={errors.phone ? "phone-error" : undefined}
                   />
-                  {errors.phone && <p className="text-destructive text-xs mt-1">{errors.phone}</p>}
+                  {errors.phone && <p id="phone-error" className="text-destructive text-xs mt-1" role="alert">{errors.phone}</p>}
                 </div>
                 <div>
+                  <label htmlFor="contact-message" className="text-sm font-medium mb-1 block">Mensagem</label>
                   <Textarea
+                    id="contact-message"
                     placeholder="Sua mensagem"
                     rows={5}
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
+                    aria-invalid={!!errors.message}
+                    aria-describedby={errors.message ? "message-error" : undefined}
                   />
-                  {errors.message && <p className="text-destructive text-xs mt-1">{errors.message}</p>}
+                  {errors.message && <p id="message-error" className="text-destructive text-xs mt-1" role="alert">{errors.message}</p>}
                 </div>
                 <Button type="submit" className="w-full bg-primary hover:bg-primary-dark font-heading font-bold">
                   Enviar pelo WhatsApp
@@ -123,21 +140,21 @@ const Contact = () => {
                   <Phone size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Telefone</p>
-                    <p className="text-muted-foreground text-sm">(47) 99768-9880</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT_PHONE}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Email</p>
-                    <p className="text-muted-foreground text-sm">contato@wifire-engenharia.com.br</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT_EMAIL}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin size={20} className="text-primary mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-sm">Endereço</p>
-                    <p className="text-muted-foreground text-sm">R. Gervasio Regis Jr, Lote Q2 - São Vicente, Itajaí - SC</p>
+                    <p className="text-muted-foreground text-sm">{CONTACT_ADDRESS}</p>
                   </div>
                 </div>
               </div>

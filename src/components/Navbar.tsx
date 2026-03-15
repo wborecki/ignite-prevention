@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logoIcon from "@/assets/logo-icon.png";
+import logoIcon from "@/assets/logo-icon.webp";
+import { WHATSAPP_URL } from "@/config/constants";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -44,7 +45,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground px-5 py-2 rounded-md text-sm font-semibold hover:bg-primary-dark transition-colors"
@@ -57,7 +58,8 @@ const Navbar = () => {
         <button
           className="md:hidden p-2"
           onClick={() => setOpen(!open)}
-          aria-label="Menu"
+          aria-label={open ? "Fechar menu" : "Abrir menu"}
+          aria-expanded={open}
         >
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -65,7 +67,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {open && (
-        <nav className="md:hidden border-t border-border bg-background px-6 pb-6 pt-4 space-y-4">
+        <nav className="md:hidden border-t border-border bg-background px-6 pb-6 pt-4 space-y-4" aria-label="Menu de navegação mobile">
           {navLinks.map((link) => (
             <Link
               key={link.to}
@@ -81,7 +83,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold text-center hover:bg-primary-dark transition-colors"

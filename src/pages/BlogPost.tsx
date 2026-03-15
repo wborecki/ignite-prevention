@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { blogPosts } from "@/data/blogPosts";
 import { ArrowLeft } from "lucide-react";
 import SEO, { createBlogPostSchema, breadcrumbSchema } from "@/components/SEO";
+import { WHATSAPP_URL } from "@/config/constants";
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -17,6 +18,17 @@ const BlogPost = () => {
       </div>
     );
   }
+
+  // Render inline formatting (bold text)
+  const renderInline = (text: string) => {
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, idx) => {
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return <strong key={idx}>{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
 
   // Simple markdown-like rendering
   const renderContent = (content: string) => {
@@ -72,7 +84,7 @@ const BlogPost = () => {
           <Tag key={i} className={`my-4 space-y-1.5 ${isOrdered ? "list-decimal" : "list-disc"} pl-6`}>
             {items.map((item, j) => (
               <li key={j} className="text-muted-foreground leading-relaxed">
-                {item.replace(/^\s*[-*]\s+/, "").replace(/^\d+\.\s*/, "").replace(/\*\*(.*?)\*\*/g, "$1")}
+                {renderInline(item.replace(/^\s*[-*]\s+/, "").replace(/^\d+\.\s*/, ""))}
               </li>
             ))}
           </Tag>
@@ -80,7 +92,7 @@ const BlogPost = () => {
       }
       return (
         <p key={i} className="text-muted-foreground leading-relaxed my-4">
-          {block.replace(/\*\*(.*?)\*\*/g, "$1")}
+          {renderInline(block)}
         </p>
       );
     });
@@ -143,7 +155,7 @@ const BlogPost = () => {
               Entre em contato com a WI-FIRE e solicite um orçamento.
             </p>
             <a
-              href="https://wa.me/5547997689880?text=Olá! Gostaria de solicitar um orçamento."
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-md font-heading font-bold text-sm hover:bg-primary-dark transition-colors"
