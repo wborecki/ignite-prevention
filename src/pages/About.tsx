@@ -34,8 +34,8 @@ const About = () => {
          description="Conheça a WI-FIRE: empresa de engenharia especializada em prevenção e combate a incêndio em Itajaí e região. Equipe técnica qualificada e comprometida com a segurança."
         keywords="sobre WI-FIRE, empresa engenharia contra incêndio, prevenção incêndio Itajaí, equipe técnica bombeiros, engenheiro contra incêndio Santa Catarina, engenheiro segurança incêndio CREA SC, atuação Paraná Rio Grande do Sul, NBR 13714 hidrantes, NBR 12693 extintores, ABNT NBR 9077 saídas emergência, regularização edificações comerciais industriais, construtoras incorporadoras incêndio"
         jsonLd={breadcrumbSchema([
-          { name: "Home", url: "https://wifire.com.br/" },
-          { name: "Sobre", url: "https://wifire.com.br/sobre" },
+          { name: "Home", url: "https://wifire-engenharia.com.br/" },
+          { name: "Sobre", url: "https://wifire-engenharia.com.br/sobre" },
         ])}
       />
 

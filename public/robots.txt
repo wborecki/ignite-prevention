@@ -6,7 +6,7 @@ Disallow: /api/
 Disallow: /admin/
 
 # Sitemaps
-Sitemap: https://wifire.com.br/sitemap.xml
+Sitemap: https://wifire-engenharia.com.br/sitemap.xml
 
 # Crawl-delay
 User-agent: Googlebot

@@ -1,94 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wifire.com.br/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <loc>https://wifire-engenharia.com.br/</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/solucoes</loc>
-    <lastmod>2026-03-10</lastmod>
+    <loc>https://wifire-engenharia.com.br/solucoes</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/sobre</loc>
-    <lastmod>2026-03-10</lastmod>
+    <loc>https://wifire-engenharia.com.br/sobre</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog</loc>
-    <lastmod>2026-03-10</lastmod>
+    <loc>https://wifire-engenharia.com.br/blog</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/o-que-e-ppci</loc>
+    <loc>https://wifire-engenharia.com.br/blog/o-que-e-ppci</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/como-obter-avcb</loc>
+    <loc>https://wifire-engenharia.com.br/blog/como-obter-avcb</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/importancia-inspecao-extintores</loc>
+    <loc>https://wifire-engenharia.com.br/blog/importancia-inspecao-extintores</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/diferenca-ppci-rpci</loc>
+    <loc>https://wifire-engenharia.com.br/blog/diferenca-ppci-rpci</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/normas-abnt-seguranca-incendio</loc>
+    <loc>https://wifire-engenharia.com.br/blog/normas-abnt-seguranca-incendio</loc>
     <lastmod>2025-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/sinalizacao-emergencia-edificacoes</loc>
+    <loc>https://wifire-engenharia.com.br/blog/sinalizacao-emergencia-edificacoes</loc>
     <lastmod>2025-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/como-escolher-extintor-correto</loc>
+    <loc>https://wifire-engenharia.com.br/blog/como-escolher-extintor-correto</loc>
     <lastmod>2025-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/blog/sistema-hidrantes-prediais</loc>
+    <loc>https://wifire-engenharia.com.br/blog/sistema-hidrantes-prediais</loc>
     <lastmod>2025-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://wifire.com.br/contato</loc>
-    <lastmod>2026-03-10</lastmod>
+    <loc>https://wifire-engenharia.com.br/contato</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

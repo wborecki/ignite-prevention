@@ -50,8 +50,8 @@ const Contact = () => {
          description="Entre em contato com a WI-FIRE para solicitar orçamento de PPCI, AVCB, inspeções e regularizações. Atendemos Itajaí, Balneário Camboriú e toda Santa Catarina."
         keywords="contato WI-FIRE, orçamento PPCI, orçamento AVCB, engenharia contra incêndio contato, telefone WI-FIRE Itajaí, visita técnica incêndio, orçamento habite-se, orçamento inspeção extintores, engenheiro incêndio Balneário Camboriú, regularização bombeiros SC PR RS"
         jsonLd={breadcrumbSchema([
-          { name: "Home", url: "https://wifire.com.br/" },
-          { name: "Contato", url: "https://wifire.com.br/contato" },
+          { name: "Home", url: "https://wifire-engenharia.com.br/" },
+          { name: "Contato", url: "https://wifire-engenharia.com.br/contato" },
         ])}
       />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">

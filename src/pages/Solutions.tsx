@@ -85,8 +85,8 @@ const Solutions = () => {
         description="Conheça os serviços da WI-FIRE: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas de equipamentos contra incêndio em Itajaí SC."
         keywords="PPCI projeto preventivo incêndio, RPCI relatório preventivo, AVCB auto vistoria bombeiros, habite-se regularização, inspeção extintores hidrantes sprinklers, laudo técnico incêndio Itajaí, alvará funcionamento bombeiros, sprinklers dimensionamento, alarme incêndio detecção, manutenção hidrantes SC, renovação AVCB, projeto incêndio galpão industrial, projeto incêndio hotel, projeto incêndio hospital"
         jsonLd={breadcrumbSchema([
-          { name: "Home", url: "https://wifire.com.br/" },
-          { name: "Soluções", url: "https://wifire.com.br/solucoes" },
+          { name: "Home", url: "https://wifire-engenharia.com.br/" },
+          { name: "Soluções", url: "https://wifire-engenharia.com.br/solucoes" },
         ])}
       />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">

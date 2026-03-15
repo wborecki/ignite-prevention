@@ -10,8 +10,8 @@ const Blog = () => {
         description="Artigos e guias completos sobre engenharia contra incêndio: PPCI, AVCB, extintores, normas ABNT, sinalização de emergência, hidrantes e mais."
         keywords="blog segurança contra incêndio, artigos PPCI, guia AVCB, extintores tipos, normas ABNT incêndio, sinalização emergência, hidrantes prediais, engenharia contra incêndio blog"
         jsonLd={breadcrumbSchema([
-          { name: "Home", url: "https://wifire.com.br/" },
-          { name: "Blog", url: "https://wifire.com.br/blog" },
+          { name: "Home", url: "https://wifire-engenharia.com.br/" },
+          { name: "Blog", url: "https://wifire-engenharia.com.br/blog" },
         ])}
       />
       <section className="bg-foreground text-primary-foreground py-16 md:py-24">

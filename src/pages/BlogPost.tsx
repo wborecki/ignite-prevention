@@ -109,9 +109,9 @@ const BlogPost = () => {
         jsonLd={{
           ...createBlogPostSchema(post),
           ...breadcrumbSchema([
-            { name: "Home", url: "https://wifire.com.br/" },
-            { name: "Blog", url: "https://wifire.com.br/blog" },
-            { name: post.title, url: `https://wifire.com.br/blog/${post.slug}` },
+            { name: "Home", url: "https://wifire-engenharia.com.br/" },
+            { name: "Blog", url: "https://wifire-engenharia.com.br/blog" },
+            { name: post.title, url: `https://wifire-engenharia.com.br/blog/${post.slug}` },
           ])
         }}
       />
