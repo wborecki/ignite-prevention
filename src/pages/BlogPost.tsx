@@ -4,6 +4,17 @@ import { ArrowLeft } from "lucide-react";
 import SEO, { createBlogPostSchema, breadcrumbSchema } from "@/components/SEO";
 import { WHATSAPP_URL } from "@/config/constants";
 
+const SLUG_TO_SERVICE: Record<string, string> = {
+  "o-que-e-ppci": "PPCI",
+  "diferenca-ppci-rpci": "PPCI",
+  "como-obter-avcb": "AVCB",
+  "importancia-inspecao-extintores": "Inspeções",
+  "como-escolher-extintor-correto": "Inspeções",
+  "normas-abnt-seguranca-incendio": "PPCI",
+  "sinalizacao-emergencia-edificacoes": "PPCI",
+  "sistema-hidrantes-prediais": "PPCI",
+};
+
 const BlogPost = () => {
   const { slug } = useParams();
   const post = blogPosts.find((p) => p.slug === slug);
@@ -128,6 +139,8 @@ const BlogPost = () => {
             <span>{new Date(post.date).toLocaleDateString("pt-BR")}</span>
             <span>·</span>
             <span>{post.readTime} de leitura</span>
+            <span>·</span>
+            <span>Por Eng. Iriãn M. Padilha</span>
           </div>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-extrabold max-w-3xl">
             {post.title}
@@ -145,6 +158,53 @@ const BlogPost = () => {
           <article className="max-w-3xl mx-auto prose-sm">
             {renderContent(post.content)}
           </article>
+
+          {/* Link para serviço relacionado */}
+          {SLUG_TO_SERVICE[post.slug] && (
+            <div className="max-w-3xl mx-auto mt-8">
+              <Link
+                to="/solucoes"
+                className="text-primary font-semibold text-sm hover:underline"
+              >
+                Conheça nosso serviço de {SLUG_TO_SERVICE[post.slug]} →
+              </Link>
+            </div>
+          )}
+
+          {/* Posts Relacionados */}
+          {(() => {
+            const related = blogPosts
+              .filter((p) => p.slug !== post.slug)
+              .slice(0, 3);
+            return (
+              <div className="max-w-3xl mx-auto mt-14">
+                <h3 className="text-xl font-heading font-bold mb-6">
+                  Artigos Relacionados
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {related.map((r) => (
+                    <Link
+                      key={r.slug}
+                      to={`/blog/${r.slug}`}
+                      className="border border-border rounded-lg overflow-hidden hover:border-primary/30 transition-colors group"
+                    >
+                      <img
+                        src={r.image}
+                        alt={r.imageAlt || r.title}
+                        className="w-full h-32 object-cover"
+                        loading="lazy"
+                      />
+                      <div className="p-3">
+                        <p className="text-sm font-heading font-bold group-hover:text-primary transition-colors line-clamp-2">
+                          {r.title}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
 
           {/* CTA */}
           <div className="max-w-3xl mx-auto mt-12 bg-secondary rounded-lg p-8 text-center">

@@ -117,7 +117,7 @@ export default SEO;
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-   "name": "WI-FIRE Engenharia Contra Incêndio",
+  "name": "WI-FIRE Engenharia Contra Incêndio",
   "description": "Empresa especializada em engenharia contra incêndio: PPCI, RPCI, AVCB, Habite-se, Alvarás, Laudos Técnicos e Inspeções Preventivas. Atuação em Santa Catarina, Paraná e Rio Grande do Sul.",
   "url": "https://wifire-engenharia.com.br",
   "telephone": "+5547997689880",
@@ -142,20 +142,80 @@ export const organizationSchema = {
     { "@type": "State", "name": "Paraná" },
     { "@type": "State", "name": "Rio Grande do Sul" }
   ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+5547997689880",
+    "contactType": "customer service",
+    "availableLanguage": "Portuguese",
+    "areaServed": "BR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "9",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
   "knowsAbout": [
     "NBR 13714: Sistemas de Hidrantes",
     "NBR 12693: Extintores de Incêndio",
     "ABNT NBR 9077: Saídas de Emergência",
     "ITC BMSC: Instruções Técnicas do Corpo de Bombeiros"
   ],
-  "serviceType": [
-    "Projeto Preventivo Contra Incêndio (PPCI)",
-    "Relatório Preventivo Contra Incêndio (RPCI)",
-    "Auto de Vistoria do Corpo de Bombeiros (AVCB)",
-    "Habite-se",
-    "Alvarás e Laudos Técnicos",
-    "Inspeções Preventivas de Equipamentos"
-  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços de Engenharia Contra Incêndio",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "PPCI - Projeto Preventivo Contra Incêndio",
+          "description": "Elaboração completa do projeto preventivo para aprovação junto ao Corpo de Bombeiros."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "RPCI - Relatório Preventivo Contra Incêndio",
+          "description": "Documento simplificado para edificações de pequeno porte, com aprovação ágil."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AVCB - Auto de Vistoria do Corpo de Bombeiros",
+          "description": "Acompanhamento de todo o processo para obtenção e renovação do AVCB."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Habite-se - Regularização de Imóveis",
+          "description": "Assessoria para obtenção do Habite-se com toda a documentação de segurança contra incêndio."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Alvarás e Laudos Técnicos",
+          "description": "Emissão de alvarás e laudos técnicos de segurança contra incêndio."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Inspeções Preventivas em Equipamentos",
+          "description": "Verificação e manutenção de extintores, hidrantes, sprinklers e demais equipamentos."
+        }
+      }
+    ]
+  },
   "sameAs": [
     "https://instagram.com/wifireengenharia",
     "https://facebook.com/wifireengenharia",
@@ -184,9 +244,13 @@ export const createBlogPostSchema = (post: {
   "datePublished": post.date,
   "dateModified": post.date,
   "author": {
-    "@type": "Organization",
-     "name": "WI-FIRE Engenharia Contra Incêndio",
-    "url": "https://wifire-engenharia.com.br"
+    "@type": "Person",
+    "name": "Eng. Iriãn M. Padilha",
+    "jobTitle": "Engenheiro de Segurança Contra Incêndio",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "WI-FIRE Engenharia Contra Incêndio"
+    }
   },
   "publisher": {
     "@type": "Organization",

@@ -5,6 +5,7 @@ import SEO, { organizationSchema, faqSchema } from "@/components/SEO";
 import ClientsCarousel from "@/components/ClientsCarousel";
 import Testimonials from "@/components/Testimonials";
 import FAQ, { faqData } from "@/components/FAQ";
+import { blogPosts } from "@/data/blogPosts";
 import projectMagazine from "@/assets/projects/magazine-luiza.webp";
 import projectGalpao from "@/assets/projects/galpao-itajai.webp";
 import projectAlmabe from "@/assets/projects/almabe-bc.webp";
@@ -289,6 +290,55 @@ const Index = () => {
               className="inline-block text-primary font-semibold text-sm hover:underline"
             >
               Conheça nossa história →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Recentes */}
+      <section className="py-20 md:py-28 bg-secondary">
+        <div className="container">
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+              Últimos Artigos do <span className="text-primary">Blog</span>
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Conteúdos sobre engenharia contra incêndio, normas técnicas e dicas de segurança
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {blogPosts.slice(0, 3).map((post) => (
+              <Link
+                key={post.slug}
+                to={`/blog/${post.slug}`}
+                className="border border-border rounded-lg overflow-hidden hover:border-primary/30 transition-colors group bg-background"
+              >
+                <img
+                  src={post.image}
+                  alt={post.imageAlt || post.title}
+                  className="w-full h-44 object-cover"
+                  loading="lazy"
+                />
+                <div className="p-5 space-y-2">
+                  <div className="text-xs text-muted-foreground">
+                    {new Date(post.date).toLocaleDateString("pt-BR")} · {post.readTime} de leitura
+                  </div>
+                  <h3 className="font-heading font-bold group-hover:text-primary transition-colors line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              to="/blog"
+              className="text-primary font-semibold text-sm hover:underline"
+            >
+              Ver todos os artigos →
             </Link>
           </div>
         </div>
