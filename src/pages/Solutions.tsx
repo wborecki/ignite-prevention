@@ -1,33 +1,6 @@
-import { Link } from "react-router-dom";
 import { Shield, FileText, ClipboardCheck, Home, Award, Search } from "lucide-react";
 import SEO, { breadcrumbSchema } from "@/components/SEO";
 import { WHATSAPP_URL } from "@/config/constants";
-
-const SERVICE_BLOG_LINKS: Record<string, { slug: string; title: string }[]> = {
-  "PPCI": [
-    { slug: "o-que-e-ppci", title: "O que é PPCI e por que sua empresa precisa de um?" },
-    { slug: "diferenca-ppci-rpci", title: "Diferença entre PPCI e RPCI" },
-  ],
-  "RPCI": [
-    { slug: "diferenca-ppci-rpci", title: "Diferença entre PPCI e RPCI: Qual você precisa?" },
-  ],
-  "AVCB": [
-    { slug: "como-obter-avcb", title: "Como obter o AVCB: Guia completo" },
-  ],
-  "Inspeções": [
-    { slug: "importancia-inspecao-extintores", title: "A importância da inspeção periódica de extintores" },
-    { slug: "como-escolher-extintor-correto", title: "Como escolher o extintor correto" },
-    { slug: "sistema-hidrantes-prediais", title: "Sistema de hidrantes prediais" },
-  ],
-};
-
-const getServiceKey = (title: string): string | undefined => {
-  if (title.includes("PPCI")) return "PPCI";
-  if (title.includes("RPCI")) return "RPCI";
-  if (title.includes("AVCB")) return "AVCB";
-  if (title.includes("Inspeções")) return "Inspeções";
-  return undefined;
-};
 
 const services = [
   {
@@ -161,21 +134,6 @@ const Solutions = () => {
                     </li>
                   ))}
                 </ul>
-                {(() => {
-                  const key = getServiceKey(service.title);
-                  const links = key ? SERVICE_BLOG_LINKS[key] : undefined;
-                  if (!links?.length) return null;
-                  return (
-                    <div className="mt-4 space-y-1">
-                      <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Leia mais no blog:</p>
-                      {links.map((l) => (
-                        <Link key={l.slug} to={`/blog/${l.slug}`} className="block text-sm text-primary hover:underline">
-                          {l.title} →
-                        </Link>
-                      ))}
-                    </div>
-                  );
-                })()}
               </div>
             </div>
           ))}
