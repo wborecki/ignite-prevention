@@ -81,8 +81,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-10 pt-6 text-center text-xs text-white/40">
-          © {new Date().getFullYear()} WI-FIRE Engenharia Contra Incêndio. Todos os direitos reservados.
+        <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/40">
+          <span>© {new Date().getFullYear()} WI-FIRE Engenharia Contra Incêndio. Todos os direitos reservados.</span>
+          <Link to="/privacidade" className="hover:text-white transition-colors">
+            Política de Privacidade
+          </Link>
         </div>
       </div>
     </footer>
