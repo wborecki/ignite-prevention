@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollToTop from "@/components/ScrollToTop";
 import CookieConsent from "@/components/CookieConsent";
+import PageTransition from "@/components/PageTransition";
 
 const Index = lazy(() => import("./pages/Index"));
 const Solutions = lazy(() => import("./pages/Solutions"));
@@ -30,17 +31,19 @@ const App = () => (
         <Navbar />
         <ErrorBoundary>
           <main>
-            <Suspense fallback={<div className="container py-20 text-center text-muted-foreground">Carregando...</div>}>
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/solucoes" element={<Solutions />} />
-                <Route path="/sobre" element={<About />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/blog/:slug" element={<BlogPost />} />
-                <Route path="/contato" element={<Contact />} />
-                <Route path="/privacidade" element={<Privacy />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
+            <Suspense fallback={<div className="min-h-screen" />}>
+              <PageTransition>
+                <Routes>
+                  <Route path="/" element={<Index />} />
+                  <Route path="/solucoes" element={<Solutions />} />
+                  <Route path="/sobre" element={<About />} />
+                  <Route path="/blog" element={<Blog />} />
+                  <Route path="/blog/:slug" element={<BlogPost />} />
+                  <Route path="/contato" element={<Contact />} />
+                  <Route path="/privacidade" element={<Privacy />} />
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </PageTransition>
             </Suspense>
           </main>
         </ErrorBoundary>
