@@ -96,8 +96,8 @@ const Index = () => {
   return (
     <>
       <SEO
-         title="WI-FIRE | Engenharia Contra Incêndio - PPCI, AVCB em Itajaí SC"
-         description="WI-FIRE: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Itajaí, Balneário Camboriú e região de SC."
+        title="WI-FIRE | Engenharia Contra Incêndio - PPCI, AVCB"
+        description="WI-FIRE: soluções completas em engenharia contra incêndio. PPCI, RPCI, AVCB, Habite-se, inspeções e laudos técnicos em Santa Catarina, Paraná e Rio Grande do Sul."
         keywords="engenharia contra incêndio Itajaí, PPCI Itajaí, AVCB Santa Catarina, projeto contra incêndio, segurança contra incêndio SC, habite-se Itajaí, inspeção extintores, regularização edificação bombeiros, PPCI Balneário Camboriú, PPCI Florianópolis, AVCB Paraná, AVCB Rio Grande do Sul, engenharia incêndio região sul, regularização corpo de bombeiros, NBR 13714, NBR 12693, NBR 9077, projeto preventivo incêndio comercial, projeto preventivo incêndio industrial, CLCB, certificado licenciamento bombeiros, plano de emergência, saída de emergência, iluminação emergência, alarme incêndio, detector fumaça, porta corta fogo, vistoria bombeiros, licença bombeiros SC"
         jsonLd={organizationSchema}
         additionalJsonLd={[faqSchema(faqData.map(f => ({ question: f.question, answer: f.answer })))]}
